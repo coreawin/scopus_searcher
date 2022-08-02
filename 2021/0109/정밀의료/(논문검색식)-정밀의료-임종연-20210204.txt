@@ -1,0 +1,124 @@
+[논문검색식 작업 안내문]
+
+1. scopus.kisti.re.kr 에 로그인
+ - www.scopus.com 은 검색엔진이 다르므로 활용하면 안됨. 
+
+2. 검색식 작업 팁
+ - Advanced Search 에서 검색
+ - 주로 and , or 연산자를 활용하여 검색식을 작성하며 영어로 작성함. 
+ - 검색식에서 wildcard (*, ?) 는 적용한 검색엔진에서 안먹히는 경우가 있어서 가능한 사용하지 말라고 함. 꼭 사용하려면 아래의 사용 안내 참고하여 사용
+ - 발행년도: PY=(2015-2020)   최근 6년 
+ - 해외 정부 투자 과제 검색도 논문 검색식을 활용함. 
+ - 실제 데이터 다운로드는 개발자와 협의하여 일괄 다운로드 받는 것으로 계약되어 있으나 개발자가 검색식의 오류까지 검토하지는 않으므로 오류없는 검색식을 제출해야 함.
+ - 검색식을 엑셀로 저장하는 과정에서 큰따옴표의 모양이 이상하게 변경되는 경우가 있어서 엑셀양식을 버리고 텍스트 양식을 선택하게 되었음. 
+ 
+ <논문/특허 검색식에서 와일드카드 * 사용 안내>
+ - 엄밀하게 말하면 와일드 카드 검색이 아닌 Prepost 검색임.
+ - (가능한 사례) abc*  : *가 단어의 마지막에 오는 경우
+ - (적용이 안되는 사례) abc*def  또는 *abc : * 가 단어의 중간이나 처음에 오는 경우 --> 이런 경우는 검색시간이 너무 오래 걸려서 적용하지 않았음.(사용하면 안됨)
+ - 특허(gpass)에서 * 가능한 필드 : 기본적으로 번호형태(발행, 출원, 우선권등)와 분류코드, 제목, 초록에서 검색 가능
+ - 논문(scopus)에서 * 가능한 필드 : EID, 기관아이디, ASJC, 기관ID, DOI, 제목, 초록, 저자키워드, 인덱스키워드
+ - 답변은 정승한 부장으로부터 받은 내용입니다. 
+ 
+3. 제출 내용
+ - 중분류 코드, 검색식, 검색건수   : 코드별 검색식과 검색건수도 제출해야 실제로 개발자가 다운로드한 건수와 비교해서 정확도를 점검할 수 있음.
+ - 텍스트 에디터 (울트라에디터, Notepad++ 등) SW에서 작성하여 제출 (*.txt 파일로)
+
+4. 개발자가 다운로드해서 주는 파일의 명칭 형식 :   정밀의료_T01.txt  
+
+
+=========== [ 분과명: 정밀의료 ] 중분류코드별 논문검색식 및 건수 =============
+
+
+T01	오믹스 정보획득 : 1,618건
+TK=((genetic or genomic or transcriptomic or proteomic or metabolomic or epigenomic or epigenetic or pharmocogenomic or pharmacogenetic or nutrigenomic or omics) and (medicine or medical or health or diagnosis or therapy) and (expression or changes or differences or profiles or array or assay) and (information or data)) not (algorithm or "machine learning" or "deep learning"))  PY=(2015-2020)
+
+
+T02	 생체오믹스 정보분석: 5,661건
+TK=((genetic or genomic or transcriptomic or proteomic or metabolomic or epigenomic or epigenetic or pharmocogenomic or pharmacogenetic or nutrigenomic or omics) and (medicine or medical or health or diagnosis or therapy) and (algorithm or "machine learning" or "deep learning" or "data analysis") not ("biomarker develop" or "biomarkers develop")) PY=(2015-2020)
+
+
+T03	 코호트: 999건
+TK=((cohort or cohorts) and ("precision medicine" or "precise medicine" or "personalized medicine" or "personalised medicine" or "individualized medicine" or "individualised medicine" or "tailored medicine" or "customized medicine" or "customised medicine") and (medical or health* or treat* or diagnosis or therapy)) PY=(2015-2020)
+
+
+T04	 바이오센서&모바일 헬스정보 획득 기술: 17,077건
+TK=(("IOT" or mobile or wearable or smartphone or cellular) or (transfer or load or transform or extract or transmission)) and (biosensor or bio-sensor or biosensing or bioelectric or health) and (data or record or information or genomics or informatics) not (device or robot or instrument or hardware) PY=(2015-2020)
+
+
+T05	 스마트헬스 디바이스 개발: 4,729건
+TK=(wearable or monitoring or diagnostic or implantable) and (biosensor or bio-sensor or biosensing or bioelectric or health) and (device or hardware or robot) and (health or medical or biometric) PY=(2015-2020)
+
+
+T06	 정밀의료데이터 수집/통합 기술: (2,767)건
+TK=((medical or hospital or clinic* or patient*) and (data or information* or record* or genome or gene or "personal health record" or "PHR" ) and ("data generator" or "data conversion" or "data preprocessing" or "structured data" or "unstructured data" or "pre processing" or collect* or convers*  or preprocessing) not (prediction or diagnosis)) PY=(2015-2020)
+
+
+T07	정밀의료데이터 참조모델: 4,599건
+TK=(medical or health) and (data or information or informatics or interoperability) and (standard or "standard model" or "reference model" or "data labeling") PY=(2015-2020)
+
+
+T08	  정밀의료데이터 비식별화/보안 기술: 5,899건
+TK=((medical or health) and (data or information) and (encryption or security or "block chain"))  PY=(2015-2020)
+
+
+T09	 정밀의료데이터 저장/처리 기술: (9,781)건
+TK=((medical or hospital or clinic* or patient*) and (data or information* or record* or genome or gene or "personal health record" or "PHR") and  ("data process" or "data interchange" or "data storage" or "data management" or cloud) not (prediction or diagnosis))  PY=(2015-2020)
+
+
+T10	 정밀의료 데이터 플랫폼: 956건
+TK= ("cloud HIS" or "cloud EMR" or ((medical or health) and ("information system" ))) and (CDM or "common data model" or "data visualization" or "information exchange" or "data model" or "data interoperability") PY=(2015-2020)
+
+
+T11	 임상정보분석: (4,959)건
+TK=  (("data integration" or "big data" or "health data" or record or records or data) and (genotype or phenotype or "genome wide association" or "GWAS" or "risk factor" or "risk factors" or "risk score" or "risk scores" or "survival length" or "genetic test" or "gene test") and (predict or prediction or "prediction algorithm" or algorithm or prognosis or prognostic or "deep learning" or "machine learning" or "ai" or "artificial intelligence" or model or modeling) and (clinic or clinical or hospital or medic or medical))  PY=(2015-2020)
+
+
+T12	스마트헬스 디바이스 기반  데이터 분석: 29,183건
+TK=("vital sign" or "heart rate" or PHR  or "personal health record" or ECG or EKG or Electrocardiography or biometrics or biosignal or "health record" or biosensor or robot or "wearable device" or "wearable devices" or "medical device") and ("health care" or "health management" or care or wellness) not ("decision making") PY=(2015-2020)
+
+
+
+T13	 개인맞춤형 약물반응성 및 안전성 예측 실증 임상연구: 764건
+TK= (drug or pharma* or prescription) and ("companion diagnostics" or CDx or or "companion diagnostic device" or "molecular diagnostics" or "pharmacogenetic test" or "drug monitoring" or "disease subtyping") and (safety or "side effect" or "side effects" or pharmacovigilance or sensitivity) and (device or instrument or analysis or "liquid biopsy" or biopsy or sampling) and ("clinical research" or "clinical study" or clinical) not ("clinical test" or "clinical trial") PY=(2015-2020)
+
+
+
+T14	질환 정밀 예측/진단 실증 임상연구: 2,158건
+TK= ((biomarker or NGS or SNP or "molecular diagnostics" or "targeted gene sequencing" or "single cell genomics" or "DNA chip" or gene or "genetic testing" and or "DNA analysis" or sequencing) and ("artificial intelligence" or algorithm or "deep learning" or "machine learning" or software or computing) and (prognos* or diagnos* or (predict* and disease)) and ("clinical research" or "clinical study" or clinical) not ("clinical test" or "clinical trial"))  PY=(2015-2020)
+
+
+
+T15	질환 정밀 치료 및 맞춤처방(의약품) 임상연구: 7,622건
+TK= (("clinical research" or "clinical study" or clinical) and ("targeted drug" or "targeted therapy" or "targeted therapies" or "personalized therapy" or "customized therapy" or "targeted treatment" or "personalised treatment" or "customised treatment" or "precise treatment" or "drug treatment decision support system" or "personalized drug") not ("clinical trial" or "clinical test"))  PY=(2015-2020)
+
+
+T16	 질환 정밀 치료 및 맞춤처방(비의약품) 임상연구: 2,756건
+TK= (therapy or treatment or healthcare) and (data or "artificial intelligence" or algorithsm or "machine learning") and (device or instrument or software or robot or "digital health" or "digital treatment" or "digital therapy" or ehealth or mhealth) and ("clinical research" or "clinical study" or clinical) not ("clinical test" or "clinical trial") not (drug or pharma)  PY=(2015-2020)
+
+
+T17	정밀의료 전임상/임상시험: 7,792건
+TK= ("clinical trial" or "preclinical trial" or "clinical study" or "preclinical study" or "pre-clinical trial" or "pre-clinical study" or "basket trial" or "umbrella trial") and (sensitivity or specificity or performance or accuracy or efficacy or efficiency or effect) and (biomarker or "genome editing" or "genome edit" or crispr or "translational medicine" or "clinical decision support system" or NGS  or "companion diagnostics" or "molecular diagnostics" or "targted drug" or "target drug" or "precision medicine" or "precise medicine" or "personalized medicine" or "personalised medicine" or "individualized medicine" or "individualised medicine" or "tailored medicine" or "customized medicine" or "customised medicine") PY=(2015-2020)
+
+
+T18	 개인맞춤형 정밀의료 서비스: 1,466건
+TK=(("precision medicine" or "precise medicine" or "personalized medicine" or "personalised medicine" or "personalized therapy" or "personalised therapy" or "individualized medicine" or "individualized therapy" or "individualised medicine" or "individualised therapy" or "tailored medicine" or "tailored therapy" or "customized medicine" or "customized therapy" or "customised medicine" or "customised therapy" or "precision health" or "genetic testing" or "gene test") and (business or commercialization or service or counseling)) PY=(2015-2020)
+
+
+T19	 임상의사결정지원시스템 적용: 3,436건
+TK= ("CDSS" or "clinical decision support system" or "clinical decision support" or "medical informatics" or "personal health information protection" or "treatment decision support" or "medical expert system" or "health informatics" or "clinical data warehouse" or "clinical data repository" or "AI medical diagnosis") and (hospital or service or business)) PY=(2015-2020)
+
+
+
+T20	정밀의료 신기술영역 및 고도화기술: 3,496건
+TK= (data* or information or informatic* or genomic* or omic* or record*) and ("precision medicine" or "precise medicine" or "personalized medicine" or "personalised medicine" or "personalized therapy" or "personalised therapy" or "individualized medicine" or "individualised medicine" or "tailored medicine" or "tailored therapy" or "customized medicine" or "customised medicine" or health* or medic* or "targeted treat" or "targeted therapy") and (organoid* or "organ on a chip" or "genetic editing" or crispr* or "genome editing" or "nano material" or nanomaterial* or nanoparticle* or nanomedicine or chemiluminiscence) PY=(2015-2020)
+
+
+
+T21	바이오마커 발굴: 34,378건
+TK= (("precision medicine" or "precise medicine" or "personalized medicine" or "personalised medicine" or "personalized therapy" or "personalised therapy" or "individualized medicine" or "individualised medicine" or "tailored medicine" or "tailored therapy" or "customized medicine" or "customised medicine" or health or medicine or medical) and (biomarker or "bio marker" or marker)) PY=(2015-2020)
+
+
+T22	바이오뱅크: 3,721건
+TK= (("bio-bank" or biorepository or biobanks or biobanking or biorepositories or ((repository or repositories or bank or banks) and (gene or genes or genome or "human bioresource" or tissue or biopsy)) or biostorage)))  PY=(2015-2020)
+

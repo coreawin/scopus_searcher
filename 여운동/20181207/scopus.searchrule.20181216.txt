@@ -1,0 +1,2 @@
+@지능형자동차
+3-3	(TI=(Navi* or Navigation or Digital Map or Map) PY=(2012-2018)) AND (Ts=(Autonomous or "Artificial Intelligent" or smart or "AI" or Manless or Automotive or Automobile or Vehicle or "Connected Vehicle" or bus or truck) PY=(2012-2018))

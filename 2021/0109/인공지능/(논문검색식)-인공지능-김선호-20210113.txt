@@ -1,0 +1,122 @@
+
+[논문검색식 작업 안내문]
+
+1. scopus.kisti.re.kr 에 로그인
+ - www.scopus.com 은 검색엔진이 다르므로 활용하면 안됨. 
+
+2. 검색식 작업 팁
+ - Advanced Search 에서 검색
+ - 주로 and , or 연산자를 활용하여 검색식을 작성하며 영어로 작성함. 
+ - 검색식에서 wildcard (*, ?) 는 적용한 검색엔진에서 안먹히는 경우가 있어서 가능한 사용하지 말라고 함.
+ - 발행년도: PY=(2015-2020)   최근 6년 
+ - 해외 정부 투자 과제 검색도 논문 검색식을 활용함. 
+ - 실제 데이터 다운로드는 개발자와 협의하여 일괄 다운로드 받는 것으로 계약되어 있으나 개발자가 검색식의 오류까지 검토하지는 않으므로 오류없는 검색식을 제출해야 함.
+ - 검색식을 엑셀로 저장하는 과정에서 큰따옴표의 모양이 이상하게 변경되는 경우가 있어서 엑셀양식을 버리고 텍스트 양식을 선택하게 되었음. 
+ 
+3. 제출 내용
+ - 중분류 코드, 검색식, 검색건수   : 코드별 검색식과 검색건수도 제출해야 실제로 개발자가 다운로드한 건수와 비교해서 정확도를 점검할 수 있음.
+ - 텍스트 에디터 (울트라에디터, Notepad++ 등) SW에서 작성하여 제출 (*.txt 파일로)
+
+4. 개발자가 다운로드해서 주는 파일의 명칭 형식 :   정밀의료_T01.txt  
+
+
+=========== [ 분과명: 인공지능 ] 중분류코드별 논문검색식 및 건수 =============
+
+T01	추론/지식표현: 6024
+TS=((("artificial intelligence"  or "machine learning" or "machine intelligence") and ("ontology" or "knowledge explanation" or "knowledge discovery" or "knowledge reasoning" or "knowledge construction" or "knowledge representation" or "knowledge representation" or "probabilistic inference" or "causal inference" or "automated reasoning" or "symbolic reasoning" or "evidential reasoning" or "strategic inference" or "conceptual reasoning" or "predictive inference" or "dispositional reasoning" or "deductive reasoning" or "inductive reasoning")))  PY=(2015-2020)
+
+T02	기계학습(지도학습): 98031
+TS=((("artificial intelligence"  or "machine learning" or "machine intelligence") and ("ensemble learning" or "ensemble design" or "ensemble method" or "ensemble classifier" or "transfer learning" or "ensemble-based learning" or "few shot" or "two shot" or "one shot" or "zero shot" or "case-based reasoning" or "bayesian learning" or "naive bayesian" or "bayesian decision" or "k-nearest" or "k nearest" or "k-NN" or "kNN" or  "instance based learning" or "lazy learning" or "adaboost" or "adaptive boosting" or "weak classifier" or "strong classifier" or "support vector machine" or "regression" or "linear regression" or "logistic regression" or "decision tree" or "classification" or "supervised learning" or "SVM" or "CBR")))  PY=(2015-2020)
+
+T03	딥러닝: 24939
+TS=((("artificial intelligence"  or "machine Learning" or "machine intelligence") and ("convolutional neural network" or "recurrent neural network" or "convolutional sequence modeling" or "memory based network" or "capsule network" or "gated recurrent unit" or "long short-term memory" or "self-attention based network" or "self-attention network" or "sequence to sequence learning" or "deep generative model" or "deep neural network" or "deep belief network" or "deep hypernet" or "multi-level artificial neural network" or "restricted boltzmann machine" or "deep convolutional generative adversarial network" or "bi-directional RNN" or "continuous-time RNN" or "hierarchical RNN" or "GRU" or "Seq2Seq" or "LSTM" or "CNN" or "RNN" or "DNN" or "DBN" or "CDBN" or "DHN" or "DCGAN" or "RBM" or "CTRNN")))  PY=(2015-2020)
+
+T04	강화학습: 9286
+TS=((("artificial intelligence"  or "machine Learning" or "machine intelligence") and ("reinforcement learning" or "q-learning" or  "q-network" or "deep-Q learning" or "deep Q network" or "DQN" or "deep reinforcement learning" or "asynchronous advantage actor-critic" or "A3C" or "actor-critic" or "advantage actor-critic" or "A2C" or "policy gradient" or "policy gradient actor critic" or "markov decision process" or "MDP" or "value-based RL" or "policy-based RL" or "PGAC")))  PY=(2015-2020)
+
+T05	비지도학습: 13852
+TS=((("artificial intelligence"  or "machine Learning" or "machine intelligence") and ("k-means" or "unsupervised clustering" or "unsupervised learning" or "associate rule learning)" or "hierarchical clustering" or "hebbian learning" or "generative adversarial network" or "GAN" or "discoGAN" or "cycleGAN" or "starGAN" or "fusionGAN" or "density-based spatial clustering" or "DBSCAN" or "principal component analysis" or "PCA" or "DCGAN" or  "conditional GAN" or "categorical GAN" or "catGAN" or "information GAN" or "InfoGAN" or "least squares GAN" or "LSGAN" or "vanilla GAN" or "wasserstein GAN" or "WGAN" or "auxiliary classifier GAN" or "ACGAN")))  PY=(2015-2020)
+
+T06	설명가능한 AI: 1741
+TS=((("artificial intelligence"  or "machine Learning" or "machine intelligence") and ("deep explanation" or "interpretable machine learning" or "interpretable learning" or "model induction" or "causal inference" or "markov logic network" or "MLN" or "explainable AI" or "XAI" or "layer-wise relevance propagation" or "LRP" or "explainable artificial intelligence" or "comprehensible machine learning" or "black box problem" or "black boxed approach" or "explainable machine learning" or "interpretable ML" or " interpretable model" or "explainability problem" or "interpretability of machine learning" or "cognitive explanation")))  PY=(2015-2020)
+
+T07	뇌인지 컴퓨팅: 4721
+TS=((("artificial intelligence"  or "machine Learning" or "machine intelligence") and ("neuro informatics" or "neuro implant" or "BCI" or "brain-computer interface" or "brain computer interface" or "neural-control interface" or "NCI" or "connectomics" or "connectome" or "brain?machine interface" or "BMI" or "brain robot interface" or "BRI" or "neurofeedback" or "electroencephalography" or "EEG" or "ERD" or "ERS" or "brain signal")))  PY=(2015-2020)
+
+T08	범용 AI: 922
+TS=((("artificial intelligence"  or "machine Learning" or "machine intelligence") and ("common sense reasoning" or "commonsense reasoning" or "common-sense knowledge" or "artificial consciousness" or "brain simulation" or "lifelong learning" or "lifelong machine learning" or "machine common sense" or "human-like reasoning" or "AGI" or "artificial general intelligence" or "strong artificial intelligence " or "strong AI" or "CSR" or "LML" or "MCS")))  PY=(2015-2020)
+
+T09	AI 데이터 구축: 12596
+TS=((("artificial intelligence"  or "machine Learning" or "machine intelligence") and ("data augmentation" or "automated labeling" or "automatic labeling" or "auto labeling" or "data security" or "data wrangling" or "data cleaning" or "de-identification" or "personal identifiable information" or "encryption" or "information security" or "data protection" or "data identification" or "personal identification" or "training data" or "data acquisition"))) PY=(2015-2020)
+
+T10	AI 특화 하드웨어: 4309
+TS=((("artificial intelligence"  or "machine learning" or "machine intelligence") and ("high-performance computing" or "high performance computer" or "high performance distributed computing" or "distributed and parallel" or "high-performance accelerator" or "supercomputer" or "supercomputing" or "neuromorphic" or "neuromorphic computing" or "AI semiconductor" or "neural core" or "multi core" or "GPU" or "HPC" or "HPDC" or "ASIC" or "specialized hardware" or "hardware acceleration" or "graphical processing unit")))  PY=(2015-2020)
+
+T11	지능형 에이전트: 4729
+TS=((("artificial intelligence"  or "machine learning" or "machine intelligence") and ("intelligent agent" or "multi agent" or "chat bot" or "chatbot" or "avatar" or "human-agent interaction" or "HCI" or "virtual agent" or "virtual assistant" or "chat agent" or " interactive machine learning" or "iML" or "ML-agent" or "agent platform")))  PY=(2015-2020)
+
+T12	시각지능: 26059
+TS=((("artificial intelligence"  or "machine learning" or "machine intelligence") and ("video understanding" or "VQA" or "captioning" or "image understanding" or "object recognition" or "pattern recognition" or "computer vision" or "face recognition" or "gesture recognition" or "person recognition" or "person re-identification" or "scene analysis" or "scene understanding" or "video analytics" or "action recognition" or "human behavior understanding" or "video segmentation" or "video analysis" or "temporal video" or "spatial video" or "object tracking" or "image augmentation" or "image synthesis" or "video tagging" or "video classification" or "image recognition" or "human activity recognition" or " visual data analytics" or "computational imaging" or " understanding of people" or "understanding of object" or "understanding of environment" or "image generation")))  PY=(2015-2020)
+
+T13	언어지능: 22768
+TS=((("artificial intelligence"  or "machine learning" or "machine intelligence") and ("language generation" or "language understanding" or "language modeling" or "information extraction" or "sentiment analysis" or "information retrieval" or "morphology" or "morphological information" or "POS tagging" or "parsing" or "semantics" or "semantic analysis" or "syntactic" or "sentiment analysis" or  "sentiment classification" or "discourse" or "machine translation" or "question answering" or "contextual embedding" or "character embedding" or "word embedding" or "sentiment prediction" or "text categorization" or "automatic summarization" or "dialogue system" or "sentence relatedness" or "text summarization" or "sentence generation" or "dialogue generation" or "named entity recognition" or "NER" or "natural language inference" or "NLI" or "semantic role labeling" or "SRL")))  PY=(2015-2020)
+
+T14	청각(음성) 지능: 4039
+TS=((("artificial intelligence"  or "machine learning" or "machine intelligence") and ("speech recognition" or "speaker identification" or "speaker verification" or "audio beamforming" or "automatic speech recognition" or "ASR" or "TTS" or "Text to Speech" or "Text-to-Speech" or "speech synthesis" or "P-TTS" or "Personalized-Text To Speech" or "Speech to Text" or "Speech-to-Text" or "STT" or "audio processing" or "audio recognition" or "source separation" or "single channel source separation" or "SCSS" or "audio synthesis" or "voice analysis" or "voice recognition")))  PY=(2015-2020)
+
+T15	상황/감정 이해: 1556
+TS=((("artificial intelligence"  or "machine learning" or "machine intelligence") and ("personality modeling" or "personality recognition" or "emotion detection" or "emotion understanding" or "emotion expression" or "emotion classification" or "recognition of emotion" or "context modeling" or "context aware" or "context understanding" or "intent detection" or "intent understanding" or "reaction model" or "reaction management")))  PY=(2015-2020)
+
+T16	행동/소셜 지능: 14553
+TS=((("artificial intelligence"  or "machine learning" or "machine intelligence") and ("social intelligence" or "behavior intelligence" or "collaborative" or "collaboration" or "negotiation" or "task planning" or "human-robot interaction" or "human motion modeling" or "human behaviour" or "robotics" or "motion intelligence" or "task model" or "path planning" or "collaborative planning" or "automated planning" or "qualitative reasoning" or "qualitative information" or "qualitative distinction" or "behavior of physical system" or "socially-aware" or "bodily-kinesthetic" or "kinesthetic intelligence" or "interpersonal" or "sensorimotor intelligence")))  PY=(2015-2020)
+
+T17	복합 지능: 3408
+TS=((("artificial intelligence"  or "machine learning" or "machine intelligence") and ("multimodal" or "crossmodal " or "data modalities" or "multisensory" or "five senses" or "human-machine interaction" or "five human senses" or "man machine interface" or "MMI" or "artificial consciousness" or "machine consciousness" or "synthetic consciousness" or "situation awareness")))  PY=(2015-2020)
+
+T18	 무인기 지능화: 3669
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("UAV" or "UAVs" or "UAS" or  "drone" or "drones" or "multicopter" or "multicopters" or "quadcopter" or "quadcopters" or "octocopter" or "octocopters" or "Unmanned Aerial Vehicle" or "Unmanned Aerial Vehicles" or "Uninhabited Aerial Vehicle" or "Uninhabited Aerial Vehicles" or "Unmanned Aerial System" or "Unmanned Aerial Systems" or "Unmanned Aircraft System" or "Unmanned Aircraft Systems" or "Remotely Piloted Aircraft System" or "Remotely Piloted Aircraft Systems" or "RPAS" or "Quadrotor" or "Quadrotors")))  PY=(2015-2020)
+
+T19	자율자동차 지능화: 8605
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("self driving car" or "self-driving car" or "self driving vehicle" or "self-driving vehicle" or "connected car" or "autonomous car" or "autonomous vehicle" or "automated vehicle" or "driverless vehicle" or "manless  vehicle" or "connected vehicle" or "connected car" or "autonomous driving" or "traffic control" or "traffic monitoring" or "transportation")))  PY=(2015-2020)
+
+T20	정밀의료 지능화: 14641
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("precision medicine" or "precise medicine" or "personalized medicine" or "personalised medicine" or "personalized therapy" or "personalised therapy" or "individualized medicine" or "individualized therapy" or "individualised medicine" or "individualised therapy" or "tailored medicine" or "tailored therapy" or "customized medicine" or "customized therapy" or "customised medicine" or "customised therapy" or "medical diagnostics" or "medical image" or "healthcare image" or "medical imaging" or "biomedical data" or "pathology" or "clinical neuroimaging")))  PY=(2015-2020)
+
+T21	미세먼지 저감 지능화: 1577
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("emission amount" or "air pollutants" or "fine particles" or "greenhouse gas" or "air quality" or "pollution source" or "yellow dust" or "hazardous air" or "air pollution" or "polluted air" or "fine dust")))  PY=(2015-2020)
+
+T22	스마트 그리드 지능화: 9960
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("smart grid" or "nano grid" or "micro grid" or "energy network" or "power plant" or "renewable energy" or "distributed energy resource" or "energy forecasting" or "energy prediction" or "energy demand" or "energy consumption" or "power system reliability" or "energy efficiency" or "power quality" or "advanced metering" or "smart meter" or "energy management" or "electricity trading" or "smart  electricity")))  PY=(2015-2020)
+
+T23	스마트팜 지능화: 7672
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("agriculture" or "agricultural" or "farm" or "greenhouse" or "vinyl house" or "crop" or "fruit" or "vegetable" or "smart farm" or "smart farming" or "cultivation" or "cultivator" or "future farming" or "precision farming" or "smart crops")))  PY=(2015-2020)
+
+T24	스마트시티 지능화: 2495
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("smart urban" or "smart urbanism" or "smart city" or "smart cities" or "smart metropolis" or "u-city" or "ubiquitous city" or "intelligent city" or "intelligent urban" or "intelligent urbanism" or "digital city" or "knowledge-based city" or "sustainable city" or "urban sustainability" or "sustainable cities" or "knowledge city" or "knowledge-based urban" or "mesh city" or "future city" or "personalized city" or "real-time city")))  PY=(2015-2020)
+
+T25	로봇 지능화: 6102
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("human-robot" or "humanoid" or "multi-robot" or "task planning" or "path planning" or "path optimization" or "SLAM" or "collaboration" or "human-robot interaction" or "robot trajectory" or "robot localization")))  PY=(2015-2020)
+
+T26	AI기반 스마트 제조: 8618
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("smart factory" or "smart plant" or "predictive maintenance" or "prescriptive maintenance" or  "industrial equipment" or "manufacturing" or "fault diagnosis" or "remote management" or "failure estimation" or "lifetime prediction" or "facility" or "prognostics" or "health management" or "factory analytics" or "pattern inspection" or "quality inspection")))  PY=(2015-2020)
+
+T27	인공지능 네트워크: 10274
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("network optimization" or "network resource" or " network control" or "network monitoring" or "resource utilization" or "communication network" or "wireless sensor network" or "congestion control" or  "cognitive radio network" or "network fault" or "network failure" or "network threa" or "network management" or "fault management" or "QoS" or "network traffic" or "cellular network" or "network security")))  PY=(2015-2020)
+
+T28	AI기반 교육 서비스: 8251
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("e-Learning" or "eLearning" or "foreign language" or "second language" or "smart education" or "educational model" or "pronunciation" or "grammatical inference" or "grammar check" or "personalized education" or "instruction" or "adaptive e-Learning"))) PY=(2015-2020)
+
+T29	AI기반 행정서비스: 3008
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("public administration" or "administration secretary" or "government" or "public sector" or "policy decision" or "public service" or "public e service" or "policy making" or "administrative information" or "administrative workflow" or "official document" or "policy consultation")))  PY=(2015-2020)
+
+T30	AI기반 금융 서비스: 4254
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("financial service" or "robo-advisor" or "robo advisor" or "banking" or "finance security" or "trading system" or "system trading" or "financial market" or "financial prediction" or "stock market" or "forecasting financial" or "financial forecast" or "financial forecasting" or "market estimation" or "market prediction" or "risk management" or "financial time series" or "forecasting stock market" or "financial analysis" or "financial modelling" or "portfolio management" or "asset management" or "asset pricing" or "fraud management" or "fraud detection" or "fintech"  or "money transfer" or "bank transaction" or "bank account" or "bank statement")))  PY=(2015-2020)
+
+T31	게임 AI: 1047
+TS=((("artificial intelligence"  or "machine learning" or "machine intelligence") and ("game playing" or "non-player character" or "nonplayer character" or "NPC" or "game development" or "game validation" or "game interface" or "game simulation" or "gaming")))  PY=(2015-2020)
+
+T32	AI기반 뉴스 서비스: 3408
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("journalism" or "sentence planning" or "surface realization" or "content planning" or "text mining" or "document summarization" or "news generation" or "generating news" or "robot journalism" or "news recommendation" or "automated report" or "language understanding"))) PY=(2015-2020)
+
+T33	국방 AI: 830
+TS=((("artificial intelligence"  or "machine learning" or "deep learning" or "machine intelligence") and ("military application" or "military sector" or "military training" or "military simulation" or "defence application" or "military operation" or "military strategy" or "warfare platform" or "military system" or "military tactics" or "threat monitoring" or "combat simulation" or "combat training" or "battlefield healthcare" or "enemy behavior" or "target recognition" or "defense force" or "reconaissance"))))  PY=(2015-2020)

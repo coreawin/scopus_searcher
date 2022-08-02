@@ -1,0 +1,114 @@
+[논문검색식 작업 안내문]
+
+1. scopus.kisti.re.kr 에 로그인
+ - www.scopus.com 은 검색엔진이 다르므로 활용하면 안됨. 
+
+2. 검색식 작업 팁
+ - Advanced Search 에서 검색
+ - 주로 and , or 연산자를 활용하여 검색식을 작성하며 영어로 작성함. 
+ - 검색식에서 wildcard (*, ?) 는 적용한 검색엔진에서 안먹히는 경우가 있어서 가능한 사용하지 말라고 함. 꼭 사용하려면 아래의 사용 안내 참고하여 사용
+ - 발행년도: PY=(2015-2020)   최근 6년 
+ - 해외 정부 투자 과제 검색도 논문 검색식을 활용함. 
+ - 실제 데이터 다운로드는 개발자와 협의하여 일괄 다운로드 받는 것으로 계약되어 있으나 개발자가 검색식의 오류까지 검토하지는 않으므로 오류없는 검색식을 제출해야 함.
+ - 검색식을 엑셀로 저장하는 과정에서 큰따옴표의 모양이 이상하게 변경되는 경우가 있어서 엑셀양식을 버리고 텍스트 양식을 선택하게 되었음. 
+ 
+ <논문/특허 검색식에서 와일드카드 * 사용 안내>
+ - 엄밀하게 말하면 와일드 카드 검색이 아닌 Prepost 검색임.
+ - (가능한 사례) abc*  : *가 단어의 마지막에 오는 경우
+ - (적용이 안되는 사례) abc*def  또는 *abc : * 가 단어의 중간이나 처음에 오는 경우 --> 이런 경우는 검색시간이 너무 오래 걸려서 적용하지 않았음.(사용하면 안됨)
+ - 특허(gpass)에서 * 가능한 필드 : 기본적으로 번호형태(발행, 출원, 우선권등)와 분류코드, 제목, 초록에서 검색 가능
+ - 논문(scopus)에서 * 가능한 필드 : EID, 기관아이디, ASJC, 기관ID, DOI, 제목, 초록, 저자키워드, 인덱스키워드
+ - 답변은 정승한 부장으로부터 받은 내용입니다. 
+ 
+3. 제출 내용
+ - 중분류 코드, 검색식, 검색건수   : 코드별 검색식과 검색건수도 제출해야 실제로 개발자가 다운로드한 건수와 비교해서 정확도를 점검할 수 있음.
+ - 텍스트 에디터 (울트라에디터, Notepad++ 등) SW에서 작성하여 제출 (*.txt 파일로)
+
+4. 개발자가 다운로드해서 주는 파일의 명칭 형식 :   정밀의료_T01.txt  
+
+
+=========== [ 분과명: 바이오에너지 ] 중분류코드별 논문검색식 및 건수 =============
+
+
+ T01	바이오매스 생산 기술 : 17454개
+TS=(Biochemical OR “Bio-chemical” OR bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass OR biodiesel OR "bio-diesel" OR "bio-ethanol" OR bioethtanol OR biogas OR "Bio-gas" OR bioalcohol OR "bio-alcohol" OR biomethane OR methane) AND TK=(((mass OR bulk OR yield OR growth OR efficiency) AND ("gene" OR "genetic" OR "Genetically" OR "genemanipulation" OR "breeding")) OR ((agriculture OR farm OR plantat OR farming OR agricultural OR forestry) AND (connection OR association OR relation OR joint OR relat OR relation OR relat OR relevance OR link)) OR ((algae) AND (extreme OR extremely OR extrarodinary OR extremity) AND (cultivation OR cultivat OR culture OR grow OR incubation OR incubate)) OR ((biosolids OR sewage OR sludge OR ognaic waste OR food waste OR waste OR manure OR agriculture OR agricultural) AND (seawater OR saltwater OR sea-water OR salt-water OR oceanwater OR saline-water)) OR (("algal bloom" OR "green tide" OR "algae" OR "algal" OR "water-bloom" OR "redtide" OR wood OR plant OR grass OR forest OR lignocellulose OR lignocellulosic OR cellulose OR lignin OR sugar) AND (recovery OR recycle OR recover OR reuse OR recycle OR recycling OR revival OR collection OR collect OR gather OR collecting OR obtain OR muster))) PY=(2015-2020) 
+
+
+T02	고형 연료 활용기술 : 10498개
+TS=((bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass OR lignocellulose OR lignocellulosic) OR solid fuel OR pellet OR chip OR wood OR SRF OR sludge) AND TK=("carbonization" OR carboni* OR treatment  OR treat OR "biochar" OR "bio coal" OR solid OR "SRF" OR torrefation OR semi-torrefaction OR heating value OR combustion OR co-combustion OR cocombustion) PY=(2015-2020) 
+
+
+T03	바이오 리파이너리 : 11048개
+TS=((Biochemical OR “Bio-chemical” OR bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass OR biodiesel OR "bio-diesel" OR "bio-ethanol" OR bioethtanol OR biogas OR "Bio-gas" OR bioalcohol OR "bio-alcohol" OR biomethane OR methane) OR green OR solvent OR polymer OR plastic OR biodegradable OR biobased OR bio-based OR platform OR diol OR fine chemical OR bulk chemical OR chemical OR pharmaceutical OR agriculture OR carbon neutral OR value added OR metabolic OR system OR biology OR gene OR genetic OR metabolite OR synthetic) AND TK=(renewable or refinery or bioproduct or bio-product or biochemical or bioprocess or fermentation or microbial process or biorefinery or bio-chemical) PY=(2015-2020) 
+
+
+T04	미활용 바이오매스 에너지화 : 2997개
+TS=((bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass OR biodiesel OR "bio-diesel" OR "bio-ethanol" OR bioethtanol OR biogas OR "Bio-gas" OR syngas OR synthetic gas OR gasification OR pyrolysis OR solid fuel) and (unused or unutilized or remained or remaining or co-firing or conversion)) AND TK=(availability or efficiency or "use efficiency" or yield or lignocellulose or lignocellulosic or waste or byproduct or biomass) PY=(2015-2020) 
+
+
+T05	플랜트실증공정(플랜트 스케일-업 실증) : 1879개
+TS=((Biochemical OR “Bio-chemical” OR bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass OR biodiesel OR "bio-diesel" OR "bio-ethanol" OR bioethtanol OR biogas OR "Bio-gas" OR biooil OR "bio-oil" OR biohydrogen OR "bio-hydrogen" OR biomethane OR "bio-methane") AND (land OR ground OR site OR location OR position OR place OR spot OR region)) AND TK=((reward OR incentive OR mileage OR reward OR bonus OR incentiv OR benefit OR voucher OR coupon OR bonus OR revenue OR payback) OR ((environment OR circumstance OR circumst OR situation OR situat OR circumstanc OR enviroment OR surroundings) AND (influence OR affect OR effect OR respons OR response OR efficacy OR efficiency OR effeciency OR efficien OR efficay OR impact OR risk OR hazard)) OR ((plant OR production OR demonstration OR demonstrat OR verific OR verification OR exhibition OR process OR control OR optimizat OR optimization OR "process optimization" OR design OR assess OR operation) AND (support OR backing OR aid OR shore-up OR assist OR assis OR help OR assistance))) PY=(2015-2020) 
+
+
+T06	전주기 경제성 분석 플랫폼 : 3046개
+TS=(bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass OR biodiesel OR "bio-diesel" OR "bio-ethanol" OR bioethtanol OR biogas OR "Bio-gas") AND TK=((LCA OR TEA OR "economic assessment" or "life cycle asssessment" or "techno-economic analysis"))) PY=(2015-2020) 
+
+
+T07	생산자 인센티브 제도 : 183개
+TS=((bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass OR biodiesel OR "bio-diesel" OR "bio-ethanol" OR bioethtanol OR biogas OR "Bio-gas")) AND TK=((reward OR incentive OR mileage OR bonus OR incentiv OR benefit OR voucher OR coupon OR bonus) AND (produce OR making OR make OR manufacture OR creat OR cabonating OR product))) PY=(2015-2020) 
+
+
+T08	바이오 매스 및 원료수급기반조성 : 1846개
+TS=(Biochemical OR "Bio-chemical" OR bioenergy OR "bio-energy" OR bioresource OR OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass) and ("foreign resource" or region or oversea) AND TK=(Biochemical OR "Bio-chemical" OR bioenergy OR "bio-energy" OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass) AND (( on-site) OR (bioresources OR energy OR cooperation OR cooperative OR joint OR unison OR collaborate OR collaboration) OR (develop OR development OR exploit OR exploitation) OR (collection OR collect OR gather OR collecting OR obtain OR muster)) PY=(2015-2020) 
+
+
+T09	타산업 융합 단지 구축 : 10개
+TS=((Biochemical OR "Bio-chemical" OR bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass)) AND (business or business model) and (integrated or inter or combined)) AND TK=((Biochemical OR "Bio-chemical" OR bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass)) AND ((business or business model) and (integrated or inter or combined or petro*) or ("carbon capture")) PY=(2015-2020) 
+
+
+T10	바이오매스 정제 및 분리 : 7886개
+TS=((Biochemical OR biorefinery OR bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass or "lignocellulosic hydrolysate" or "cellulosic hydrolysates"))  AND TK=((Biochemical OR biorefinery OR bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass or hydrolysate) and ((residue OR "by-product" or inhibitor or inhibitory) AND (removal OR elimination OR remove OR eliminate OR remove OR delete OR grind OR dry OR homogenize)) OR ((preprocessing OR Preconditioning OR "pre-processing" OR precleaning OR "pre-process" OR pretreatment OR "pre-treatment" OR preprocess) or saccharification)) PY=(2015-2020) 
+
+
+T11	기체연료 : 1565개
+TS=(biogas or "bio-gas" or bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass or "organic-waste" or methane or biohydrogen) AND TK=(( (BIOGAS OR "BIO-GAS" OR gaseous or biohydrogen or "anaerobic digestion") and (bioenergy or energy or fuel or electricity or heat or power) AND ((refinement OR refine OR purification OR purifying OR refining OR purify OR high-purity) OR ((efficiency OR effectiveness OR efficienc OR efficient OR effectiv OR efficacy) OR ((byproduct OR "by-product") or (recovery OR recycle OR recover OR reuse OR recycling OR resource) OR (ingredient OR material OR component OR element)) AND (recovery OR recycle OR recover OR reuse OR recycl OR recycling OR revival OR collection OR collect OR gather OR collecting OR obtain OR muster))) PY=(2015-2020)
+
+
+T12	액상연료 : 295개
+TS=(Biochemical OR “Bio-chemical” OR bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass) AND TK=(((proof OR substantiation OR prove OR demonstrate OR substantiate)) OR (("raw material" OR "base material") AND (produce OR making OR make OR manufacture OR creat OR carbonating OR product) AND (disposal OR dispose OR purification OR treatment OR treat OR treating OR remedy))) PY=(2015-2020) 
+
+
+T13	활용 다각화 : 6153개
+TS=(Biochemical OR “Bio-chemical” OR bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass) AND TK=(((boiler OR stove OR heater) and (connection OR association OR  relation OR joint OR relate OR relevance OR link)) OR ((transport* OR combust*) AND (fuel OR diesel OR gasoline OR “light-oil” OR lightoil OR hydrogen OR petrol OR petroleum OR oil OR cng OR lpg OR lng OR alcohol OR *thanol OR "iso-butanol"))) PY=(2015-2020) 
+
+
+T14	보급 촉진 정책 연구 : 402개
+TS=((Biochemical OR “Bio-chemical” OR bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass) AND (Policy)) AND TK=((consulting OR counsel OR consult OR advice OR opinion OR review OR appraisal) OR (departmen* OR franchise OR affiliate OR franchise OR agenc*) OR ((domestic OR domes) AND (encourage OR recommend OR suggest OR propose OR recommend OR advise OR advice OR proposal OR urge OR suggestion)) OR ((subsidy OR overpayment OR “tax exempt*”) AND (support OR backing OR aid OR “shore-up” OR assist OR help OR assistance))) PY=(2015-2020) 
+
+
+T15	신재생에너지 연계 기술 : 1744개
+TS=(Biochemical OR “Bio-chemical” OR bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass) AND TK=(((fuelcell OR “fuel-cell” OR “fuel-battery” OR fuelbattery OR pemfc OR “fure-cell” OR “bio-cell”) AND (connection OR association OR joint OR relat* OR relevance OR link)) OR ((Renewable OR energy OR renewable OR “eco-friendly” OR photovoltaic OR PV OR solar OR wind) AND (connection OR association OR relat* OR joint OR relevance OR link))) PY=(2015-2020) 
+
+
+T16	사회 수용성 향상 : 8716개
+TS=(Biochemical OR "Bio-chemical" OR bioenergy OR "bio-energy" OR bioresource OR "bio-resource" OR "bio-fuel" OR biofuel OR "bio-mass" OR biomass) AND TK=(((stink OR stench OR reek odor OR malodor OR badsmell OR offensiveodor OR fetor OR foul OR nastysmell) AND (control OR adjust OR regulate OR alter)) OR ((byproduct OR "by-product" OR residue OR filth OR coproduct OR "co-product" OR "secondary-product" OR "residual-product" OR "waste water" OR effluent) AND (dispos* OR purification OR treatment OR treat OR treating OR remedy OR "activated sludge")) OR ((finedust OR fine-particulat* OR particulate-matter OR dust OR mote) AND (reduc* OR diminution OR decrease OR decrescence OR retrenchment OR diminish OR decreasing OR minimize))) PY=(2015-2020) 
+
+
+T17	분산전원형 바이오단지 구축 : 133개
+TS=((Biomass OR "bio-mass" OR wood OR "woody biomass" OR "forest residue" OR "agricultural waste" OR "agricultural residue" OR "Food waste" OR bioresource OR "bio-resource" OR lignocellulosic OR cellulosic) AND ("bio-fuel" OR biofuel OR bioenergy OR "bio-energy" OR electricity OR biogas OR "bio-oil" OR power) AND TK=((breakup OR "break-up" OR dispersion OR dispersal OR localized OR disperse OR scatter OR on-site OR distributed OR decentralize OR decentralized) AND (production OR product OR generator OR generater)) PY=(2015-2020) 
+
+
+T18	바이오에너지화 공정시스템 기술 : 2967개
+TS=(Biochemical OR “Bio-chemical” OR bioenergy OR "bio-energy" OR "bio-fuel" OR biofuel OR biodiesel OR bioethanol OR biogas OR biomethane OR "bio-oil" OR OR "bio-jet fuel" OR "bio-aviation fuel" OR "marine biofuel" OR biorefinery OR biorefining) AND TK=((Downstream OR  separation OR updrading OR updrade OR purification) AND (process OR modeling OR method OR produce OR manufacture OR optimization OR optimum OR optimize)) PY=(2015-2020) 
+
+
+T19	표준화 및 활용기반 기술 : 6891개
+TS=(Biochemical OR “Bio-chemical” OR bioenergy OR "bio-energy" OR "bio-fuel" OR biofuel OR biodiesel OR bioethanol OR biogas OR biomethane OR "bio-oil" OR OR "bio-jet fuel" OR "bio-aviation fuel" OR "marine biofuel" OR biorefinery OR biorefining) AND TK=((property OR properties OR "fuel property" OR "fuel properties" OR "property of matter" OR "physical properties" OR "property of physical" OR emmission OR combustion OR engine NOT cancer) AND (standard OR standardization OR validate OR validation OR identification OR identify OR analysis OR evaluate OR evaluation OR test OR testing)) PY=(2015-2020) 
+
+
+T20	유통 인프라 구축 : 320개
+TS=(Biomass OR "bio-mass" OR wood OR "woody biomass" OR "forest residue" OR "agricultural waste" OR "agricultural residue"  OR bioresource OR "bio-resource" OR lignocellulosic OR cellulosic) AND TK=(("supply chain" OR infrastructure OR infra) AND ("forest road" OR pickup OR "pick-up" OR collect OR gather OR picker OR obtain OR storage OR harvest OR harvesting OR transport OR carry OR transfer OR deliver OR transport OR delivering OR transportation OR  "location optimization")) PY=(2015-2020) 
+
+
+T21	비 바이오매스 유래 탄소 전환기술 : 269개
+TK=("gas fermentation" OR "bioelectrofuel" OR "bio-electrofuel" OR ((CO2 OR "carbon dioxide" OR CO OR "carbon monoxide" OR CH4 OR methane OR "flue gas" OR "combustion gas") AND ("enzymatic conversion" )) OR (("plastic waste" OR "flue gas") AND (Biochemical OR “Bio-chemical” OR "bio-fuel" OR biofuel OR biodiesel OR bioethanol OR "bio-jet fuel" OR "bio-aviation fuel" OR "marine biofuel" OR biorefinery OR biorefining OR formate OR "formic acid"))) PY=(2015-2020) 

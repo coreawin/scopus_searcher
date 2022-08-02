@@ -1,0 +1,129 @@
+[논문검색식 작업 안내문]
+
+1. scopus.kisti.re.kr 에 로그인
+ - www.scopus.com 은 검색엔진이 다르므로 활용하면 안됨. 
+
+2. 검색식 작업 팁
+ - Advanced Search 에서 검색
+ - 주로 and , or 연산자를 활용하여 검색식을 작성하며 영어로 작성함. 
+ - 검색식에서 wildcard (*, ?) 는 적용한 검색엔진에서 안먹히는 경우가 있어서 가능한 사용하지 말라고 함. 꼭 사용하려면 아래의 사용 안내 참고하여 사용
+ - 발행년도: PY=(2015-2020)   최근 6년 
+ - 해외 정부 투자 과제 검색도 논문 검색식을 활용함. 
+ - 실제 데이터 다운로드는 개발자와 협의하여 일괄 다운로드 받는 것으로 계약되어 있으나 개발자가 검색식의 오류까지 검토하지는 않으므로 오류없는 검색식을 제출해야 함.
+ - 검색식을 엑셀로 저장하는 과정에서 큰따옴표의 모양이 이상하게 변경되는 경우가 있어서 엑셀양식을 버리고 텍스트 양식을 선택하게 되었음. 
+ 
+ <논문/특허 검색식에서 와일드카드 * 사용 안내>
+ - 엄밀하게 말하면 와일드 카드 검색이 아닌 Prepost 검색임.
+ - (가능한 사례) abc*  : *가 단어의 마지막에 오는 경우
+ - (적용이 안되는 사례) abc*def  또는 *abc : * 가 단어의 중간이나 처음에 오는 경우 --> 이런 경우는 검색시간이 너무 오래 걸려서 적용하지 않았음.(사용하면 안됨)
+ - 특허(gpass)에서 * 가능한 필드 : 기본적으로 번호형태(발행, 출원, 우선권등)와 분류코드, 제목, 초록에서 검색 가능
+ - 논문(scopus)에서 * 가능한 필드 : EID, 기관아이디, ASJC, 기관ID, DOI, 제목, 초록, 저자키워드, 인덱스키워드
+ - 답변은 정승한 부장으로부터 받은 내용입니다. 
+ 
+3. 제출 내용
+ - 중분류 코드, 검색식, 검색건수   : 코드별 검색식과 검색건수도 제출해야 실제로 개발자가 다운로드한 건수와 비교해서 정확도를 점검할 수 있음.
+ - 텍스트 에디터 (울트라에디터, Notepad++ 등) SW에서 작성하여 제출 (*.txt 파일로)
+
+4. 개발자가 다운로드해서 주는 파일의 명칭 형식 :   정밀의료_T01.txt  
+
+
+=========== [ 분과명: 지능형로봇 ] 중분류코드별 논문검색식 및 건수 =============
+
+T01	로봇기구설계 : 9,406개
+TI=(mechanical* OR design* OR kinematic* OR actuat*) AND (Robot*)  PY=(2015-2020)
+
+T02	소프트로보틱스 : 2,121개
+TI=(Soft AND Robot*) OR ABS=("SOFT ROBOT") PY=(2015-2020) 
+
+T03	로봇활용인간증강 : 8,356개
+TI=((Prosthetic* and Exoskeleton*) OR Wearable OR Haptic* OR (Telerobotic* and Teleoperation*) OR Human* OR augmentation*) AND (Robot*)  PY=(2015-2020)
+
+T04	의료서비스(의료특화로봇기술) : 23,634개
+TS=(Rehabilitation* OR (Surgical* AND Surgery*) OR Healthcare*) AND (Robot*)  PY=(2015-2020)
+
+T05	마이크로로봇 : 13,724개
+TS=(Microrobot OR micro*) AND (Robot*) PY=(2015-2020)
+
+T06	생체모방로봇 : 15,630개
+TS=(Bio-inspired* OR Biomimetic* OR Humanoid* OR Insect*) AND (Robot*)  PY=(2015-2020)
+
+T07	로봇경로계획 및 제어 : 11,092개
+TS=((path AND planning) OR (visual AND tracking) OR (path AND following) OR (path AND optimization)) AND (Robot*)  PY=(2015-2020)
+
+T08	로봇 임피던스제어 : 5,482개
+TS=((Impedanc* AND control*) OR (position AND force* AND control*) OR (articulate* AND control*) OR (disturbance* AND observer*)) AND (Robot*)  PY=(2015-2020)
+
+T09	로봇동작계획 :24,401개
+TS=((motion* AND plan*) OR (trajectory AND generation) OR (motion AND control) OR (optimal* AND trajectory)) AND (Robot*) PY=(2015-2020)
+
+T10	다중로봇정합 : 15,874개
+TS=((Multi* AND coordination) OR swarm OR (task AND planning*) OR (motion AND planning*)) AND (Robot*)  PY=(2015-2020)
+
+T11	로봇강건제어 : 14,145개
+TS=((Robust* AND control*) OR (adaptive AND control*) OR (kinematical AND parameter* AND estimation*) OR (dynamical AND parameter* AND estimation*)) AND (Robot*)  PY=(2015-2020)
+
+T12	비주얼 서보잉 : 2,807개
+TS=((Visual AND servoing*) OR IBVS OR PBVS OR (Hybrid AND approach* AND Visual AND Servoing)) AND (Robot*) PY=(2015-2020)
+
+T13	로봇비전 : 24,631개
+TS=(vision OR (Visual AND based AND grasp) OR (Visual AND based AND Tracking) OR Recognition OR (RGB-D AND Perception) OR (Omnidirectional AND Vision) OR (Sensor AND fusion AND recognition) OR (Visual AND Learining)) AND (Robot*)  PY=(2015-2020)
+
+T14	SLAM : 10,706개
+TS=(SLAM OR (Vision-based AND Navigation) OR (Bearing AND only) OR (Range AND Sensing) OR (Particle AND filter) OR (Extended AND Kalman AND filter) OR (Feature AND Extraction) OR Monte-Carlo) AND (Robot*) PY=(2015-2020)
+
+T15	실내위치추정 및 지도작성 : 4,516개
+TS=((Indoor AND localization AND map*) OR (3D AND indoor AND map*) OR (visual AND odometr*) OR (TDOA AND locating*) OR (Grid AND map*) OR (3D AND Point AND Cloud*)) AND (Robot*) PY=(2015-2020)
+
+T16	자세추정 :  2,753개
+TS=((Pose* AND estimation*) OR (Egomotion AND estimation*) OR (Pose* AND graph AND reduction*) OR (IMU-camera AND data AND fusion*) OR (relative AND pose* AND estimation)) AND (Robot*) PY=(2015-2020)
+
+T17	실외위치추정 및 지도작성 : 20,099개
+TS=((Terrain AND navigation*) OR (Terrain AND mapping*) OR (Terrain AND localization*) OR landmark* OR underwater OR (Autonomous AND Vehicle*) OR navigation) AND (Robot*) PY=(2015-2020)
+
+T18	충돌회피 : 4,870개
+TS=((Collision AND avoidanc*) OR (obstacl* AND detection*) OR (reactiv* AND navigation*) OR (collision-free AND path*)) AND (Robot*) PY=(2015-2020)
+
+T19	밀집환경의 로봇주행 : 4,139개
+TS=((navigation* AND clutter* AND environment*) OR (behavior-based AND control*) OR (obstacle* AND avoidanc*) OR (target* AND searching*) OR (cluttere* AND space AND localization*)) AND (Robot*) PY=(2015-2020)
+
+T20	정교한조작 : 2,529개
+TS=((Dexterous AND manipulation*) OR (feedback AND manipulation*) OR (in-hand AND manipulation*) OR (manipulation* AND planning) OR (Dual AND arm* AND manipulation*)) AND (Robot*) PY=(2015-2020)
+
+T21	파지 : 5,007개
+TS=(Grasping* OR (precision AND grasp*) OR (contact* AND modeling*) OR caging* OR (grasp* AND planning*)) AND (Robot*) PY=(2015-2020)
+
+T22	촉각인지 : 2,199개
+TS=((Tactile AND sensing) OR (surface AND classification) OR capacitanc* OR piezoresistivit* OR (multi-axis AND force*)) AND (Robot*) PY=(2015-2020)
+
+T23	로봇힘제어 : 8,405개
+TS=(force AND control*) AND (Robot*) PY=(2015-2020)
+
+T24	로봇핸드제어 : 14,257개
+TS=((hand AND control*) OR (multi-fingered AND hand*) OR (robot AND hand*) OR (grasp AND manipulation*) OR (dynamic* AND grasping*)) AND (Robot*) PY=(2015-2020)
+
+T25	작업계획 : 13,009개
+TS=((Task and planning*) or ("work planning") OR ("operation planning") or ("action planning") or ("motion planning") OR (knowledge-based AND planning*) OR (Integrated AND task AND motion) OR (Multi-robot AND task) OR ("work planning*") OR ("operation* and planning*")) AND (Robot*) PY=(2015-2020)
+
+T26	군집로봇 : 4,572개
+TS=(Swarm* OR (Collectiv* AND behavior*)) AND (Robot*)  PY=(2015-2020)
+
+T27	로봇학습 : 9838개
+TS=((Learn* AND demonstration*) OR (Deep* AND Learning*) OR (Reinforcement* AND Learning*) OR (Imitation* AND Learning*)) AND (Robot*) PY=(2015-2020)
+
+T28	인간-로봇협동 : 3,295개
+TS=((Human-robot AND collabo*) OR (Intention AND estimation*) OR (Action AND planning*) OR (Safety AND HRC)) AND (Robot*) PY=(2015-2020)
+
+T29	인간-로봇상호작용 :  15,873개
+TS=((Human AND interaction) OR (Multi-modal AND perception*) OR (Interaction AND modeling*) OR (Interaction AND expression*) OR (Social AND interaction) OR (Brain-machine AND interface*)) AND (Robot*) PY=(2015-2020)
+
+T30	로봇성능평가 : 2,083개
+(ABS=(performance AND evaluation) or TI=(evaluat* AND performance) or ABS=(performance AND test) or TI=(test* AND performance)) AND (Robot*)  PY=(2015-2020)
+
+T31	무인비행체: 9,821개
+TS=((Unmanned AND aerial AND vehicle*) OR (Dynamic* AND Stabilit*) OR (Optimal AND path AND planning*) OR (Communication AND Securit*)) AND (Robot*) PY=(2015-2020)
+
+T32	모듈러로봇 : 7,323개
+TS=(Modular* OR connectiv*  OR Interoperability OR (Distribute* AND intelligenc*)) AND (Robot*) PY=(2015-2020)
+
+T33	족형로봇 : 4,655개
+ TS=(Legged or Quadruped or (humanoid and leg*)) AND  (Robot or robotic or robotization or robotize)  PY=(2014-2019)

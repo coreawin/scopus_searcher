@@ -1,0 +1,131 @@
+1	Accounts of Chemical Research	00014842	22657	1600
+2	ACM Transactions on Graphics	07300301	24972	1704
+3	Acta Materialia	13596454	28583	2507
+4	Acta Numerica	09624929	24535	2600
+5	Advances in Agronomy	00652113	14324	1111
+6	Advances in Physics	00018732	26978	3104
+7	Agricultural and Forest Meteorology	01681923	12067	2306
+8	Agriculture and Human Values	0889048X	15081	1102
+9	Agriculture, Ecosystems and Environment	01678809	15110	2303
+10	American Journal of Sports Medicine	03635465	19799	2732
+11	Annals of Mathematics	0003486X	24721	2600
+12	Annals of Surgery	00034932	20485	2746
+13	Annual Review of Animal Biosciences	21658102	21100330722	1305
+14	Annual Review of Astronomy and Astrophysics	00664146	26651	3103
+15	Annual Review of Biochemistry	00664154	16801	1303
+16	Annual Review of Biomedical Engineering	15239829	13037	2204
+17	Annual Review of Earth and Planetary Sciences	00846597	22005	1901
+18	Annual Review of Ecology, Evolution, and Systematics	1543592X	110325	2303
+19	Annual Review of Entomology	00664170	19133	1109
+20	Annual Review of Fluid Mechanics	00664189	13839	3104
+21	Annual review of food science and technology	19411413	21100196101	1106
+22	Annual Review of Immunology	07320582	20651	2403
+23	Annual Review of Marine Science	19411405	19700188395	1910
+24	Annual Review of Neuroscience	0147006X	14181	2800
+25	Annual Review of Pathology: Mechanisms of Disease	15534006	11300153736	1110
+26	Annual Review of Pharmacology and Toxicology	03621642	19479	3005
+27	Annual Review of Plant Biology	15435008	16721	1110
+28	Annual Review of Psychology	00664308	12010	3200
+29	Archives of Computational Methods in Engineering	11343060	18093	2604
+30	British Medical Journal	09598146	51748	2700
+31	CA - A Cancer Journal for Clinicians	00079235	28773	2720
+32	Cancer Cell	15356108	29093	1307
+33	Cell	00928674	18434	1300
+34	Cell Stem Cell	19345909	6100153018	1307
+35	Chemical Reviews	00092665	23340	1600
+36	Chemical Society Reviews	03060012	23350	1600
+37	Circulation	00097322	22581	2705
+38	Circulation Research	00097330	23063	1314
+39	Communications on Pure and Applied Mathematics	00103640	25820	2604
+40	Computer Physics Communications	00104655	13184	1708
+41	Computer-Aided Civil and Infrastructure Engineering	10939687	18144	1703
+42	Energy and Environmental Sciences	17545692	17500155114	2304
+43	European Heart Journal	0195668X	23183	2705
+44	European Urology	03022838	19897	2748
+45	Exercise Immunology Review	10775552	38062	2403
+46	Fish and Fisheries	14672960	21928	1105
+47	Gastroenterology	00165085	28330	2715
+48	Global Change Biology	13541013	15131	2303
+49	Human Reproduction Update	13554786	15623	2729
+50	IEEE Communications Magazine	01636804	17249	1705
+51	IEEE Communications Surveys and Tutorials	1553877X	17900156715	2208
+52	IEEE Industrial Electronics Magazine	19324529	5800207505	2209
+53	IEEE Transactions on Evolutionary Computation	1089778X	25037	1703
+54	IEEE Transactions on Industrial Electronics	02780046	26053	2207
+55	IEEE Wireless Communications	15361284	18935	1706
+56	Immunity	10747613	20798	2725
+57	Integrated Computer-Aided Engineering	10692509	18197	1702
+58	International Journal of Nursing Studies	00207489	28137	2900
+59	JACC: Cardiovascular Imaging	1936878X	11300153407	2741
+60	JAMA Pediatrics	21686203	21100228540	2735
+61	JAMA Surgery	21686254	21100228543	2746
+62	JAMA - Journal of the American Medical Association	00987484	85291	2700
+63	Journal of Clinical Oncology	0732183X	29949	1306
+64	Journal of Hazardous Materials	03043894	25858	2304
+65	Journal of managed care pharmacy : JMCP	10834087	23040	3003
+66	JOURNAL OF OPERATIONS MANAGEMENT	0272-6963	19169	
+67	Journal of Statistical Software	15487660	12137	1712
+68	Journal of the American Academy of Dermatology	01909622	24245	2708
+69	Journal of the American Mathematical Society	08940347	24668	2600
+70	Lancet	01406736	16590	2700
+71	The Lancet Diabetes and Endocrinology	22138587	21100237403	1310
+72	The Lancet Global Health	2214109X	21100265444	2700
+73	Lancet Infectious Diseases	14733099	22471	2725
+74	Lancet Neurology	14744422	16860	2728
+75	Lancet Oncology	14702045	12354	2730
+76	The Lancet Respiratory Medicine	22132600	21100220495	2740
+77	Living Reviews in Relativity	14338351	28677	3101
+78	Materials Science and Engineering: R: Reports	0927796X	17814	2211
+79	Materials Today	13697021	24769	2211
+80	MMWR. Morbidity and mortality weekly report	01492195	110092	2700
+81	Natural Product Reports	02650568	26371	1303
+82	Nature	00280836	21206	1000
+83	Nature Biotechnology	10870156	16115	2204
+84	Nature Chemistry	17554330	18100156701	1500
+85	Nature Climate Change	1758678X	21100198409	2301
+86	Nature Genetics	10614036	18990	1311
+87	Nature Geoscience	17520894	17600155041	1900
+88	Nature Immunology	15292908	21315	2403
+89	Nature Materials	14761122	17854	2211
+90	Nature Medicine	10788956	15819	1300
+91	Nature Methods	15487091	144840	1303
+92	Nature Nanotechnology	17483387	5200152704	2204
+93	Nature Neuroscience	10976256	17436	2800
+94	Nature Photonics	17494885	5700165152	3107
+95	Nature Physics	17452473	4000151822	3100
+96	Nature Reviews Cancer	1474175X	12464	1306
+97	Nature Reviews Clinical Oncology	17594774	17700156734	2730
+98	Nature Reviews Drug Discovery	14741776	20425	2700
+99	Nature Reviews Genetics	14710056	18991	1311
+100	Nature Reviews Immunology	14741733	21318	2403
+101	Nature Reviews Microbiology	17401526	20313	2700
+102	Nature Reviews Molecular Cell Biology	14710072	20315	1307
+103	Nature Reviews Neurology	17594758	17700156408	2728
+104	Nature Reviews Neuroscience	1471003X	17437	2800
+105	Neurorehabilitation and Neural Repair	15459683	33648	2728
+106	New England Journal of Medicine	00284793	15847	2700
+107	Nonlinear Analysis: Hybrid Systems	1751570X	9000153105	2603
+108	Oral Oncology	13688375	12628	3504
+109	Paleoceanography	08838305	22278	1911
+110	Pharmacological Reviews	00316997	21191	1313
+111	Physics of Life Reviews	15710645	13017	1100
+112	Physiological Reviews	00319333	24004	1312
+113	Progress in Energy and Combustion Science	03601285	27538	2102
+114	Progress in Lipid Research	01637827	26463	1303
+115	Progress in Materials Science	00796425	17899	2500
+116	Progress in Polymer Science	00796700	26465	2505
+117	Progress in Quantum Electronics	00796727	27130	3107
+118	Progress in Retinal and Eye Research	13509462	15090	2731
+119	Reviews of Geophysics	87551209	28599	1908
+120	Reviews of Modern Physics	00346861	29719	3100
+121	Science	00368075	23571	1000
+122	Separation and Purification Reviews	15422119	24513	1506
+123	SIAM Review	00361445	26430	2605
+124	TrAC - Trends in Analytical Chemistry	01659936	30867	1607
+125	Trends in Cognitive Sciences	13646613	15359	3206
+126	Trends in Ecology and Ecolution	01695347	14365	1105
+127	Trends in Plant Science	13601385	17809	1110
+128	Water Research	00431354	18795	2312
+129	Wildlife Monographs	00840173	24497	1105
+130	Wiley Interdisciplinary Reviews: Computational Molecular Science	17590876	21100200203	1606
+131	World Psychiatry	17238617	6200180159	2738

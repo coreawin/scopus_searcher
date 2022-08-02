@@ -1,0 +1,69 @@
+
+T01	풍력터빈 시스템설계 : 2005건
+AUTHKEY=( "wind turbine" OR "wind turbines") AND (AUTHKEY=(design OR "design class" OR "design criteria" OR "design evaluation" OR "design load cases" OR "design load case") OR AUTHKEY=("power coefficient" OR "power control" OR "power curve" OR "power curves") OR AUTHKEY=("load calculation" OR "load case" OR "load cases" OR load reduction" OR "optimization") OR AUTHKEY=(efficiency OR "fluid structure" OR "finite element analysis" OR "annual energy production" OR aero-elasticity OR "capacity factor" OR "fluid dynamics" OR "cost of energy" OR "numerical simulation" OR "tip speed ratio" OR aero-dynamics OR reliability OR "wind condition")) AND PY=(2015-2020)
+
+T02	풍력단지 설계 및 자원평가 : 1883건
+AUTHKEY=("wind farm" OR "wind farms" OR "wind farm design" OR "wind park" OR "wind parks") AND (TK=("energy production" OR "energy generation" OR "environmental condition" OR lidar OR "levelized cost of energy" OR "LCOE" OR "micro siting" OR "micro site" OR "wind atlas" OR offshore OR onshore OR optimization OR efficiency OR "power coefficient" OR "site assessment" OR "turbulence model" OR "turbulence intensity" OR turbulence OR "wind farm flow modeling" OR "wind speed" OR "park efficiency" OR "plant layout"  OR "wind resource" OR "wind resources") OR TK=("wake distance" OR "wade effect" OR "wake loss" OR "wake model" OR wasp)) AND PY=(2015-2020)
+
+T03	대형터빈 핵심부품 설계   : 1204건
+AUTHKEY=("wind turbine" OR "wind turbines" OR "wind power" OR "wind energy") AND TK=(axis OR blade OR gearbox OR generator OR nacelle OR tower OR VAWT OR HAWT OR actuator OR "carbon fiber" OR converter OR DFIG OR "drive train" OR DTRB OR "gear box" OR "geared type" OR "gearless type" OR "speed shaft" OR "pitch" OR jacket" OR "permanent magnetic generator" OR PMG OR "permanent magnetic" OR rotor OR shaft OR yaw)) AND PY=(2015-2020)
+
+T04	단지운영제어 : 600건
+AUTHKEY=("wind farm" OR "wind farms" OR "wind farm design" OR "wind power" OR "wind energy") AND (AUTHKEY=("artificial intelligence" OR "data acquisition" OR "data analysis" OR "deep learning" OR "big data" OR "machine learning" OR SCADA OR "supervisory control and data acquisition") OR AUTHKEY=("lidar-assisted control" OR "monitoring" OR "condition monitoring" OR attack OR security OR "remote monitoring" OR "remote monitoring" OR "management system" OR "wake control")) AND PY=(2015-2020)
+
+T05	핵심부품 국산화 공급망 구축   : 262건
+TK=(manufactur* OR supply*) AND (AUTHKEY=("wind turbine" OR "wind turbines" OR "wind power" OR "wind energy") AND TK=(axis OR blade OR gearbox OR generator OR nacelle OR tower OR VAWT OR HAWT OR actuator OR "carbon fiber" OR converter OR DFIG OR "drive train" OR DTRB OR "gear box" OR "geared type" OR "gearless type" OR "speed shaft" OR "pitch" OR jacket  OR "permanent magnetic generator" OR PMG OR "permanent magnetic" OR rotor OR shaft OR yaw OR "power converter" OR spar OR "power transformer" OR inverter)) AND PY=(2015-2020)
+
+T06	미래형 풍력발전 기술 : 592건
+(AUTHKEY=( "wind turbine" OR "wind turbines" OR "wind power" OR "wind energy") AND TK=(airborne OR "multi-rotor" OR "floating offshore" OR "high altitude wind power" OR kite OR parafoil OR "cross-wind" OR "flight control" OR "flight speed" OR "Cryogenic & Vacuum Engineering")) AND PY=(2015-2020)
+
+T07	융복합 에너지 시스템 : 174건
+AUTHKEY=("wind turbine" OR "wind turbines" OR "wind power" OR "wind energy") AND (TK=(battery OR "energy storage") AND TK=("power grids" OR "power to gas" OR "power to heat" OR "power to hydrogen" OR "power to x" OR "wind tidal" OR "wind wave" OR "hybrid system" OR "grid system")) AND PY=(2015-2020)
+
+T08	풍력단지 전력망 통합 기술 : 2712건
+(AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms") AND (AUTHKEY=("power plant" OR "grid connection" OR "grid integration" OR "grid code" OR "micro-grid" OR  "wind power forecasting" OR "wind power prediction" OR "reactive power compensation" OR "power grid" OR "power grids") OR AUTHKEY=( "power control" OR "power production" OR "power generation" OR "power optimization" OR "power maximization")) AND PY=(2015-2020)
+
+T09	운영 및 유지 보수 : 202건
+AUTHKEY=("wind farm" OR "wind farms" OR "wind power" OR "wind energy") AND (TK=("operation and maintenance" OR "maintenance scheduling" OR maintenance OR maintain*) AND (TS=("artificial intelligence" OR "data acquisition" OR "data analysis" OR "deep learning" OR "big data" OR "machine learning" OR "neural networks" OR SCADA OR "supervisory control and data acquisition") OR TS=("operation" OR maintain OR "fault detection" OR "fault monitoring" OR LIDAR OR "lidar-assisted control" OR "monitoring" OR "condition monitoring" OR "management system" OR "forecasting" OR "predictive maintenance" OR "predictive control" OR "wind turbine control"))) AND PY=(2015-2020)
+
+T10	운송∙설치∙시공 기술 : 447건
+AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND AUTHKEY=(installation OR foundation OR transportation OR "jack up" OR "jack-up" OR jacket OR monofile OR logistics OR crane  OR "tower transportation" OR "separated tower" OR "self electing tower" OR "floating crane") AND PY=(2015-2020)
+
+T11	해상 변전소 설치 및 운영 : 111건
+AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND  TS=("export cable" OR "submarine cable" OR "submarine cables" OR "underwater cables" OR "underwater cable" OR "inner-array cabling" OR "offshore cable" OR "offshore cables" OR "offshore power substation" OR "offshore substation" OR "cable installation" OR "inter-array cable" OR "inner-array cable" OR "inner-array cables") AND PY=(2015-2020)
+
+T12	부유식 해상풍력 : 140건
+AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND (AUTHKEY=("floating offshore" OR "floating offshores") AND TK=("wind power substation" OR "dynamic cable" OR "dynamic cables" OR "coupled dynamics" OR "wave load" OR "wave loads" OR "wind load" OR "spar buoy" OR spar OR "semi-submersible" OR "self aligning floating" OR "mooring system" OR "tension leg platform" OR "tension leg platforms" OR "floating foundation" OR "floating foundations")) AND PY=(2015-2020)
+
+T13	특수환경 대응기술   : 715건
+AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND AUTHKEY=("anti-icing" OR "cold climate" OR "cold climates" OR "de-icing" OR earthquake OR earthquakes OR "electromagnetic*" OR "ice fall" OR "ice throw" OR "ice phobic" OR "ice protection" OR "noise barrier" OR "noise control" OR "noise cancellation" OR "noise detection" OR "noise elimination" OR "noise reduction" OR "noise measurement" OR "noise disturbance" OR vibration OR "quiet wind turbine" OR "seismic design" OR "turbine icing" OR typoon OR "radar interference") AND PY=(2015-2020)
+
+T14	단지개발 기술 : 356건
+(AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND AUTHKEY=("allocation criteria" OR "community impacts" OR "economic evaluation" OR "environmental assessment" OR "environmental impacts" OR repowering OR "feed in tariff" OR "green finance" OR "life cycle assessment" OR "marine environment*" OR "marine spatial planning" OR "renewable portfolio standard" OR "social acceptance" OR economics OR "wind power planning" OR "site planning")) AND PY=(2015-2020)
+
+T15	해양특성분석 : 53건
+(AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND (AUTHKEY=(marine OR offshore OR ocean) AND AUTHKEY=(impact OR influence OR effects OR assessment OR evaluation))  AND TK=(corrosion OR typhoon OR fisher* OR "holland model" OR marine OR ocean OR semiment OR "suspended solid") AND PY=(2015-2020)
+
+T16	국산화 실증단지 개발 : 63건
+AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND TK=("test site" OR "test bed" OR "site calibration" OR "test field" OR "certification" OR "field test" OR "offshore field test site" OR "onshore field test site" OR "reference meteorological mast" OR "test bed for repowering") AND PY=(2015-2020)
+
+T17	주민 수용성 모델 : 244건
+AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND AUTHKEY=("business model" OR "community acceptance" OR "community support" OR "economic valuation" OR "low frequency impacts" OR "fishing method" OR "green certificate" OR "green finance" OR "low frequency" OR "noise assessment" OR "noise measurement" OR NIMBY OR "public acceptance" OR "quiet noise technology" OR "risk assessment" OR "social acceptance" OR "scour protection" OR "noise impact" OR "sound attenuation" OR "sediment quality") AND PY=(2015-2020)
+
+T18	해상풍력 안전성 확보 : 159건
+AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND ((AUTHKEY=(fire OR earthquake OR disaster OR emergency) AND AUTHKEY=(protection OR mitigation OR protection OR resistance OR safety)) OR AUTHKEY=("failure analysis" OR "lightning protection" OR "marine traffic" OR "occupational safety" OR "preventive measure" OR "public safety" OR "safety assessment" OR "risk assessment" OR "routing measures" OR "traffic monitoring" OR "vessel traffic" OR "Health safety and environment" OR HSE OR "emergency response plans"))) AND PY=(2015-2020)
+
+T19	시험 평가 및 인증 기술 : 162건
+AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND (AUTHKEY=accreditation OR certification OR test OR evaluation OR assessment) AND AUTHKEY=("field test" OR "fatigue test" OR "fracturing evaluation" OR "test bench" OR "test benches" OR "ground testing" OR "IECRE" OR "integrated load analysis" OR "LVRT test" OR "component evaluation" OR "loads evaluation" OR "case evaluation" OR "material test" OR "components evaluation" OR "test bed" OR "performance test" OR "post static test" OR "power performance" OR "grid simulations" OR "quality measurement" OR "project evaluation" OR "prototype certification" OR "reliability" OR "safety test" OR "function test" OR "site conditions assessment" OR "static test" OR "sub-component tests" OR "test facilities" OR "type test" OR "type testing" OR "wind turbine test")) AND PY=(2015-2020)
+
+T20	설비 재활용 기술 : 83건
+AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND TK=(recycling OR recycle OR reuse OR re-manufacturing OR "sustainable decommission" OR "sustainable decommissioning" OR decommissioning OR dismantling OR "life extension") AND PY=(2015-2020)
+
+T21	배후 전력망 인프라 구축 : 565건
+AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND AUTHKEY=("grid interconnection" OR "hardware in the loop" OR  "high voltage DC transmission" OR "HVDC transmission" OR "large scale integration" OR "offshore infrastructure" OR "offshore substation" OR "offshore wind power plant" OR "power quality" OR "power quality compensation devices" OR "transmission capacity") AND PY=(2015-2020)
+
+T22	해상풍력 집적화 단지 인프라 구축 : 56건
+AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND (TK=(offshore) AND TK=("infrastructure" OR "installation vessels" OR "logistics" OR "logistic strategies" OR "Marine infrastructure" OR "marine logistics" OR "marine supply chain" OR "port hinterland" OR "port selection" OR "supporting port" OR "shipping and port infrastructure" OR "offshore port" OR "offshore ports" OR "supply chain")) AND PY=(2015-2020)
+
+T23	전문실증연구센터 : 108건
+AUTHKEY=("wind power" OR "wind energy" OR "wind farm" OR "wind farms" OR "wind turbine" OR "wind turbines") AND TS=("certified curriculum" OR "curriculum" OR "employment" OR "green expert" OR "green industry" OR "human development" OR "human resource" OR "human resources" OR "job creation" OR "technical training" OR "technical trains" OR "research center" OR "skill demand") AND PY=(2015-2020)

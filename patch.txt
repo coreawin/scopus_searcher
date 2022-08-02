@@ -1,0 +1,4 @@
+[2022.04.19]
+	-  com.diquest.scopus.searcher._2021.external.ScopusSearcher_2021
+	- SCOPUS 변경된 DB로 수정
+	- SCOPUS 검색시 #ABS 옵션이 없으면 초록이 다운로드 되도록 기본 패치

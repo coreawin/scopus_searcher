@@ -1,0 +1,129 @@
+[논문검색식 작업 안내문]
+
+1. scopus.kisti.re.kr 에 로그인
+ - www.scopus.com 은 검색엔진이 다르므로 활용하면 안됨. 
+
+2. 검색식 작업 팁
+ - Advanced Search 에서 검색
+ - 주로 and , or 연산자를 활용하여 검색식을 작성하며 영어로 작성함. 
+ - 검색식에서 wildcard (*, ?) 는 적용한 검색엔진에서 안먹히는 경우가 있어서 가능한 사용하지 말라고 함. 꼭 사용하려면 아래의 사용 안내 참고하여 사용
+ - 발행년도: PY=(2015-2020)   최근 6년 
+ - 해외 정부 투자 과제 검색도 논문 검색식을 활용함. 
+ - 실제 데이터 다운로드는 개발자와 협의하여 일괄 다운로드 받는 것으로 계약되어 있으나 개발자가 검색식의 오류까지 검토하지는 않으므로 오류없는 검색식을 제출해야 함.
+ - 검색식을 엑셀로 저장하는 과정에서 큰따옴표의 모양이 이상하게 변경되는 경우가 있어서 엑셀양식을 버리고 텍스트 양식을 선택하게 되었음. 
+ 
+ <논문/특허 검색식에서 와일드카드 * 사용 안내>
+ - 엄밀하게 말하면 와일드 카드 검색이 아닌 Prepost 검색임.
+ - (가능한 사례) abc*  : *가 단어의 마지막에 오는 경우
+ - (적용이 안되는 사례) abc*def  또는 *abc : * 가 단어의 중간이나 처음에 오는 경우 --> 이런 경우는 검색시간이 너무 오래 걸려서 적용하지 않았음.(사용하면 안됨)
+ - 특허(gpass)에서 * 가능한 필드 : 기본적으로 번호형태(발행, 출원, 우선권등)와 분류코드, 제목, 초록에서 검색 가능
+ - 논문(scopus)에서 * 가능한 필드 : EID, 기관아이디, ASJC, 기관ID, DOI, 제목, 초록, 저자키워드, 인덱스키워드
+ - 답변은 정승한 부장으로부터 받은 내용입니다. 
+ 
+3. 제출 내용
+ - 중분류 코드, 검색식, 검색건수   : 코드별 검색식과 검색건수도 제출해야 실제로 개발자가 다운로드한 건수와 비교해서 정확도를 점검할 수 있음.
+ - 텍스트 에디터 (울트라에디터, Notepad++ 등) SW에서 작성하여 제출 (*.txt 파일로)
+
+4. 개발자가 다운로드해서 주는 파일의 명칭 형식 :   정밀의료_T01.txt  
+
+
+=========== [ 분과명: 미세먼지저감] 중분류코드별 논문검색식 및 건수 =============
+
+
+T01	독성/안전성 평가 : 1,558건 
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND (toxicity or safety))) PY=(2015-2020)
+
+T02         인체건강영향평가 :  2,956건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("Human Health Impact Assessment" or "exposure"))) PY=(2015-2020)
+
+T03        실내공기질 탐지/정화 :  74건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("Indoor Air Quality Sensing" or "purification"))) PY=(2015-2020)
+
+T04       생활환경 공기질 관리 :  379건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("Indoor Air" or "Air management" or "quality management" ))) PY=(2015-2020)
+
+T05       민감계층 노출/영향관리 :  976건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("sensitive group" or "elder" or "aged" or "senior" or "children" or "kid"))) PY=(2015-2020)
+
+T06       미세먼지 헬스케어 :  3,334건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("safety mask" or "personal" or "protective" or "equipment" or "health effect" or "control"))) PY=(2015-2020)
+
+T06       통합평가 및 관리 :  3,188건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("evaluation" or "assessment" or "management" or "health benefits" or "database" or "customized forecast" or "customized prediction"))) PY=(2015-2020)
+
+T08       미세먼지 배출/변환 규명 : 4,895건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("conversion" or "transformation" or "source"))) PY=(2015-2020)
+
+T09      외부유입 및 2차생성 규명 : 8,381건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("creation" or "formation" or "generation" or "transform" or "foreign" or "transport" or "inflow" or "transboundary" or "precursor" ))) PY=(2015-2020)
+ 
+T10      관측플랫폼 :  7,903건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("measurement" or "monitoring" or "platform" or "air quality" or "meteorological data" or "IoT" or "aircraft" or "drone" or "remote sensing")))  PY=(2015-2020)
+
+
+T11    상시 및 집중 측정 : 8,344건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("realtime" or "ordinary" or "intensitve" or "monitor* or mesurement" or "3D" or "stable isotope" or "emissions" or "satellite" or "remote sensing" or "lidar"))) PY=(2015-2020)
+
+T12    대기질 예측 모델링 :  16,264건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("forecast" or "monitor" or "prediction" or "model" or "data" or "diagnosis" or "simulation" or "emission" or "estimation" or "meteorological field" or "realtime data assimilation"))) PY=(2015-2020)
+
+T13    융합기술활용 오염관리 :  1,839건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("management" or "advanced" or "convergence" or "nano" or "artificial intelligence" or "AI" or "IoT"))) PY=(2015-2020)
+
+T14    영향도(기여도)규명 :  7,855건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("local" or "regional" or "influence" or "mobile" or "inflow" or "international"))) PY=(2015-2020) 
+
+T15    통합적위험 관리체계 :  10,221건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("integration model" or "climate" or "atmospheric" or "environment" or "integrated scenario"))) PY=(2015-2020)
+
+T16    특정오염원배출량특성 :  3,612건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("polluants" or "emission" or "harzard" or "heavy metal" or "greenhouse gas" or "multi-use facility" or "source profile" or "inventory"))) PY=(2015-2020)
+
+T17    정책 평가 및 기획 관리 :  942개
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("management" or "policy" or "cost benefit" or "feasibility analysis"))) PY=(2015-2020)
+
+T18    제도/품질 지원체계 :  2,764건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB= ("standard" or "regulation" or "support" or "quality control" or "quality assurance" or "old car"))) PY=(2015-2020)
+
+T19    환경 모델 신뢰도 재평가 : 1,602건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("environment" or "reappraise" or "revaluation" or "reappraisal" or "revalue"))) PY=(2015-2020)
+
+T20    미세먼지 정보/소통 : 253건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("education" or "advertisement" or "communication" or "cooperation"))) PY=(2015-2020)
+
+T21    기술의 글로벌화 :  3,515건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("global" or "support"))) PY=(2015-2020)
+
+T22    정보체계 구축/서비스 :  2,671건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("information" or "management"))) PY=(2015-2020) 
+
+T23    국제협력 :  803건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("government" or "administration")))  PY=(2015-2020)
+
+T24    공통핵심기술 :  720건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("voc" or "VOCs" or "incineration" or "catalyst" or "de-nox" or "desulferization")))  PY=(2015-2020)
+
+T25    대형사업장 :  1,921건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("srf" or "steel mill" or "steel works" or "thermoelectric" or "Retrofit" or "cement" or "reduction"))) PY=(2015-2020)
+
+T26    중소사업장 :  826건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB= ("painting" or "coating" or "hazard" or "dust collection" )))  PY=(2015-2020)
+
+T27    농축산업 :  787건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("cattle" or "barn" or "pigsty" or "cot" or "livestock" or "ammonia" or "nh3" or "agriculture")))  PY=(2015-2020)
+
+T28    생활환경 :  652건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("grilled" or "meat" or "furniture" or "laundry" or "re-suspended"  or "printing" or "charcoal" or "road dust" or "living area"))) PY=(2015-2020)
+
+T29    자동차/이륜차 : 892건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("car" or "vehicle" or "motorcycle" or "tire" or "brake")))  PY=(2015-2020)
+
+T30    선박/항공기/철도 : 1,108건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("ship" or "vesselor" or "boat" or "tanker" or "aircraft" or "plane" or "airplane" or "subway" or "railway" or "engine" or "eco-friendly"))) PY=(2015-2020)
+
+T31    건설기계/기타이동오염 : 682건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("mobile" or "construction" or "machinery" or "farm machinery"))) PY=(2015-2020)
+
+T32    건설기계/기타이동오염 : 1,419건
+TK=((("fine particle" or "fine dust" or "PM10" or "aerosol" ) AND AB=("urban resuspension" or "resuspended" or "urban forest" or "forest" or "outdoor" or "air purification" or "tunnel")))  PY=(2015-2020)
+

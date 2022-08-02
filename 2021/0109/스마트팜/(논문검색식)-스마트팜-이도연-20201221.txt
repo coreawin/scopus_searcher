@@ -1,0 +1,92 @@
+[논문검색식 작업 안내문]
+
+1. scopus.kisti.re.kr 에 로그인
+ - www.scopus.com 은 검색엔진이 다르므로 활용하면 안됨. 
+
+2. 검색식 작업 팁
+ - Advanced Search 에서 검색
+ - 주로 and , or 연산자를 활용하여 검색식을 작성하며 영어로 작성함. 
+ - 검색식에서 wildcard (*, ?) 는 적용한 검색엔진에서 안먹히는 경우가 있어서 가능한 사용하지 말라고 함.
+ - 발행년도: PY=(2015-2020)   최근 6년 
+ - 해외 정부 투자 과제 검색도 논문 검색식을 활용함. 
+ - 실제 데이터 다운로드는 개발자와 협의하여 일괄 다운로드 받는 것으로 계약되어 있으나 개발자가 검색식의 오류까지 검토하지는 않으므로 오류없는 검색식을 제출해야 함.
+ - 검색식을 엑셀로 저장하는 과정에서 큰따옴표의 모양이 이상하게 변경되는 경우가 있어서 엑셀양식을 버리고 텍스트 양식을 선택하게 되었음. 
+ 
+3. 제출 내용
+ - 중분류 코드, 검색식, 검색건수   : 코드별 검색식과 검색건수도 제출해야 실제로 개발자가 다운로드한 건수와 비교해서 정확도를 점검할 수 있음.
+ - 텍스트 에디터 (울트라에디터, Notepad++ 등) SW에서 작성하여 제출 (*.txt 파일로)
+
+4. 개발자가 다운로드해서 주는 파일의 명칭 형식 :   정밀의료_T01.txt  
+
+
+=========== [ 분과명: 스마트팜 ] 중분류코드별 논문검색식 및 건수 =============
+
+
+T01	환경정보측정: 10,089건
+(TK=((("sensing" or sensor* or measur* or monitor* or detect* ) and (air or meteorological or light or lighting or "carbon dioxide" or co2 or climate or weather or frost or rainfall or snowfall or rain or oxigen or oxygen or O2 or ammonia)) or "quantum meter" or psychrometer* or hygrometer* or thermometer* or "carbon dioxide detector") AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or livestock or husbandry or "domestic animal" or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T02	복합환경제어: 353건
+(TK=(("sensor" and "data fusion") or "sensor fusion" or " Multi sensor" or " Multi sensors" or "automatic control" or "hybrid control" or "hybrid environmental control") AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or livestock or husbandry or "domestic animal" or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T03	관수관비측정: 10,223건
+(TK=(("sensing" or sensor* or measur* or monitor* or detect*) and ("electrical conductivity" or prssure or pH or ion or subirrigation or irrigation or "nutrient solution" or soil or substrate)) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable*) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T04	스마트관수관비제어: 21,033건
+(TK=((control or controls or management or "model" or "modeling" or predict* or warning) and ("electrical conductivity" or prssure or pH or ion or subirrigation or irrigation or "nutrient solution" or soil or substrate)) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable*) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T05	급이·급수측정/제어: 1,258건
+(TK=((measure or sensor or sensing or inspect or instrumentation or monitor or detect or control or management) and (feed or feedstuff or forage or fodder or irrigration or supplyand)) AND TK=(livestock or husbandry or animal) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T06	냉난방공조제어: 11,010건
+(TK=("heating" or "cooling" or "heat pump" or VENTILATION or "Air Distribution" or "Air conditioning" or "conditioning equipment" or "Air handling" or "Energy Management" or "Energy monitoring") AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or livestock or husbandry or animal or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T07	생체·사양정보측정: 11,390건
+(TK=(("growth" or "ripening" or physiolog* or photosynthesis or malnutrition or sugar or evaporation or "stock keeping" or "rate of gain") and ("sensing" or sensor* or measur* or monitor* or detect*)) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or livestock or husbandry or "domestic animal" or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T08	스마트농작업기계: 32,707건
+(TK=(equipment or machiner* or tractor* or vehicle* or conveyor* or harvester* or combine* or transplanter* or "harnesting machine" or car or "weeding robot" or "weeding robots" or milking or "collecting egg" or feed or compost) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or livestock or husbandry or "domestic animal" or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T09	병해충·건강진단측정: 12,123건
+(TK=(("sensing" or sensor* or measur* or monitor* or detect* or diagonosis) and (pest or symptom or disease or INVASIVE or PATHOGENICITY or HEXAPODA or BEMISIA or FRANKLINIELLA or TRIALEURODES or BOTRYTIS or WHITEFLY or or BACILLUS or BEAUVERIA or FUSARIUM or TRICHODERMA or virus or insect or bacteria)) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or livestock or husbandry or "domestic animal" or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T10	병해충·건강관리: 30,272건
+(TK=((control or controls or management or remov* or prevent* or prescription or fumigat* or "unattended sprayer" or pesticide) and (Arthropods or infected or pest or symptom or disease or INVASIVE or PATHOGENICITY or HEXAPODA or BEMISIA or FRANKLINIELLA or TRIALEURODES or BOTRYTIS or WHITEFLY or BACILLUS or BEAUVERIA or FUSARIUM or TRICHODERMA or virus or insect or bacteria) or antifungal or antagonistic) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or livestock or husbandry or "domestic animal" or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T11	스마트상품선별: 5,264건
+(TK=(sort* or classif* or infrared or select or categorize) AND TK= ((quality or grade or weight or shape or color or "sugar content" or size or bulk or "Nondestructive assessment" or "DEFECT DETECTION" or "hyperspectral imaging" or "defect inspection") and (agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or livestock or husbandry or "domestic animal" or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T12	장기저장패키징기술: 1,934건
+(TK=((Packag* or store or stroage or maintain) and (fresh* or "long term" or extended or quality or crop* or fruit* or vegetable* or product* or food or "expiration date" or "shelf life" or "expiry date")) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable*) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T13	폐쇄형생산기술: 161건
+(TK=(("vertical farm" or "plant factory"or "closed plant" or "closed type" or "closen system")) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or livestock or husbandry or "domestic animal" or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T14	멀티센싱기반지능형제어: 185건
+(TK=("Complex Sensor" or "Complex Sensors" or "INTEGRATed SENSORS" or "INTEGRATed SENSOR" or "multiple sensor" or "multiple sensors" or "intelligent control" or "intelligent environmental control") AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or livestock or husbandry or "domestic animal" or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T15	인공지능팜봇: 281건
+(TK=(chatbot or talkbot or chatterbot or "IM bot" or "interactive agent" or "Artificial Conversational Entity" or CONVERSATIONAL or "speech recognition" or manipulator or pilotless or agbot) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or livestock or husbandry or "domestic animal" or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T16	스마트에너지: 18,677건
+(TK=(((renewable or wind or BIODIESEL or HYDROGEN or "SOLAR ENERGY" or solar or geotherm* or wave or hydrogen or waste or tidal or biomass or zero or smart) and (energy or power) or bioenergy or "fuel cell")) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or livestock or husbandry or "domestic animal" or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T17	수자원유기물재이용: 6,070건
+(TK=(("organic" and (reuse or recycl* or reclaim* or use or uptake)) or ((water or wastewater or "Waste water")and (reuse or recycl* or reclaim* or purif* or desalinat*))) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable*) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T18	맞춤형기능성분제어: 5,549건
+(TK=("food processing" or fortification or Biofortification or "Bio-fortification" or (food and enrichment) or bioavailability or bioactivity) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable*) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T19	나노바이오센싱: 234건
+(TK=("Nano-Biosensor" or NanoBiosensor* or "Nano-Biosensors" or (nano* and Biosens*)) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable*) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T20	환경정보통합처리플랫폼: 255건
+(TK=(((("sensing" or sensor* or measur* or monitor* or detect* or control or controls or management or "model" or "modeling" or predict* or warning) and (air or meteorological or light or lighting or "carbon dioxide" or co2 or climate or weather or frost or rainfall or snowfall or rain or "electrical conductivity" or prssure or pH or ion or subirrigation or irrigation or "nutrient solution" or soil or substrate)) or "quantum meter" or psychrometer* or hygrometer* or thermometer* or "carbon dioxide detector" or ("sensor" and "data fusion") or "sensor fusion" or " Multi sensor" or " Multi sensors") and platform*) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable*) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T21	빅데이터플랫폼: 226건
+(TK=(((("growth" or "ripening" or physiolog* or photosynthesis or malnutrition or sugar or evaporation or "growth and development") and ("sensing" or sensor* or measur* or monitor* or detect* or observat* or "noticing")) or ((yield or "production amount" or production or "growth") and ("model" or "modeling" or predict* or simulat* or forecast*))) and platform*) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable* or "green groceries" or "fruits and vegetables" or livestock or husbandry or "domestic animal" or cultiva* or culture or harvest) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T22	생산성최적관리플랫폼: 262건
+(TK=((((Arthropods or infected or pest or symptom or disease or INVASIVE or PATHOGENICITY or HEXAPODA or BEMISIA or FRANKLINIELLA or TRIALEURODES or BOTRYTIS or WHITEFLY or BACILLUS or BEAUVERIA or FUSARIUM or TRICHODERMA)) or (("sensing" or sensor* or measur* or monitor* or detect* or control or controls or management or "model" or "modeling" or predict* or warning or optimiz* or surveilla* or manage*) and (equipment or machiner* or tractor* or vehicle* or conveyor* or harvester* or combine* or transplanter* or "harnesting machine" or car or "weeding robot" or "weeding robots")))) and platform*) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable*) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)
+
+T23	수확후농산물스마트관리플랫폼: 3,397건
+(TK=("post harvest" or postharvest or post-harvest) AND TK=(agricultur* or farm* or greenhouse* or crop* or fruit* or vegetable*) NOT TS=("greenhouse gas" or "greenhouse gases" or "Innovation platforms" or " Innovation platform")) PY=(2015-2020)

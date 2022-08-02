@@ -1,0 +1,123 @@
+[논문검색식 작업 안내문]
+
+1. scopus.kisti.re.kr 에 로그인
+ - www.scopus.com 은 검색엔진이 다르므로 활용하면 안됨. 
+
+2. 검색식 작업 팁
+ - Advanced Search 에서 검색
+ - 주로 and , or 연산자를 활용하여 검색식을 작성하며 영어로 작성함. 
+ - 검색식에서 wildcard (*, ?) 는 적용한 검색엔진에서 안먹히는 경우가 있어서 가능한 사용하지 말라고 함.
+ - 발행년도: PY=(2015-2020)   최근 6년 
+ - 해외 정부 투자 과제 검색도 논문 검색식을 활용함. 
+ - 실제 데이터 다운로드는 개발자와 협의하여 일괄 다운로드 받는 것으로 계약되어 있으나 개발자가 검색식의 오류까지 검토하지는 않으므로 오류없는 검색식을 제출해야 함.
+ - 검색식을 엑셀로 저장하는 과정에서 큰따옴표의 모양이 이상하게 변경되는 경우가 있어서 엑셀양식을 버리고 텍스트 양식을 선택하게 되었음. 
+ 
+3. 제출 내용
+ - 중분류 코드, 검색식, 검색건수   : 코드별 검색식과 검색건수도 제출해야 실제로 개발자가 다운로드한 건수와 비교해서 정확도를 점검할 수 있음.
+ - 텍스트 에디터 (울트라에디터, Notepad++ 등) SW에서 작성하여 제출 (*.txt 파일로)
+
+4. 개발자가 다운로드해서 주는 파일의 명칭 형식 :   정밀의료_T01.txt  
+
+
+=========== [ 분과명: 수소 ] 중분류코드별 논문검색식 및 건수 =============
+T01	Gray/BLUE 수소 생산 : 20,954건 
+(TK=("grey hydrogen" or "blue hydrogen" or "steam" or "plasma" or "gastification" or "solid fuel" or "pyrolysis" or "syngas") or (("methane" or "natural gas") and (react or reform)) or (("CO2" or "carbon dioxide") and (capture or "zero")) or ("CCS" and ("carbon dioxide" or "CO2")) or "carbon capture and storage" AND TS=("hydrogen" or "h2") NOT TS=("fuel cell" or coal)) PY=(2015-2020)
+
+
+T02 	경제성 분석 : 596건
+TK=(("life cycle" and (cost or capital or expense)) or "business cycle" or "cost cycle" or "benefit cycle" or "capital cycle" or "economic cycle" or "business model" or "cost model" or "benefit model" or (capital and model) or (economic and model) or (feasible and expense) or (assess and expense) or (capital and expense) or (economic and expense) or (life and cost) or (business and cost) or (assess and cost) or (operation and cost) or (capital and cost) or "economic cost") AND TS=("hydrogen"or "h2")) NOT TS=("hydrogen sulfate") PY=(2015-2020)
+
+T03	수소품질 : 625건
+TK=(("quality" and (improve or improvement or improving or demonstrate or monitor or monitoring)) or ((eliminate or remove) and impurity) or "hydrogen quality") AND TS=("hydrogen" or "h2") PY=(2015-2020) 
+
+
+T04	Power to X : 20,868건
+(TK=("power" and (gas or methane or hydrogen)) or renewable or solar or wind or (water and electrolysis) or (water and electrolyze) AND TS=("hydrogen" or "h2")) PY=(2015-2020) 
+
+
+T05	수소융복합 실증단지 : 599건
+TK=((("energy" or "electric power" or "final energy" or "renewable") and (integration or integrating or integrate)) or "hydrogen community" or "h2 community" or (industry and cluster) or "energy complex" or "electric power complex" or "final energy complex" AND TS=("hydrogen" or "h2") PY=(2015-2020)
+
+
+T06	미래 Green 수소생산 : 23,553건
+TK=(photocatalyst or ("solar water" and split) or "artificial photosynthesis" or (anaerobic and (digestion or fermentation)) or photofermentate or "solar thermal" or (thermochemic and cycle) or nuclear) AND TS=("hydrogen" or H2) PY=(2015-2020) 
+
+
+T07	Green 수소생산 : 48,460건
+(TK=((((alkaline and "water electrolysis") or (membrane or electrode) or ("PEM" and "water electrolysis") or "MEA" or biogas or (bipolar and plate)) or (reform or syngas or catalyst)))) AND TS=("hydrogen" or "h2")) NOT TS=("Hydrogen peroxide" or "hydrogen bonding" or "hydrogen sulphate") PY=(2015-2020) 
+
+
+T08	환경 영향 분석 : 2,220건
+TK=(((environmental or environment or "climate change" or "global warming") and impact) or ((gas or air or particle) and (pollution or polluting or pollutant)) or "green energy" and (analysis or analyze or assess or assessment or tool)) or "public accept" or "public acceptance" or "local accept" or "local acceptance" or "local accepting" or "local understanding" or "community acceptance" and TS=("hydrogen" or "h2") PY=(2015-2020) 
+
+
+T09	해상 수소 운송 : 1,462건
+TK=("liquid tank" or cryogenic or refuel or refueling or "port logistics" or "port logistic" or "platform integration" or ((maritime or ocean or sea or marine or ship) and (transport or transportation))) AND TS=("hydrogen" or "h2") PY=(2015-2020) 
+
+
+T10	수소환원제철 : 1,328건
+TK=(((refinement or refining or refine) and iron) or ((reducing or reduce) and steel) and (manufacture or manufacturing or industry)) or ((iron or steel) and (deoxidate or deoxidation or deoxidating or "carbon monoxide" or "carbon dioxide"))) AND TS=("hydrogen" or "h2") PY=(2015-2020) 
+
+
+T11	수소터빈 발전 : 1,437건
+TK=((turbine and (develop or developing or development or system or process or construct or constructing or construction)) or "power plant" or ((mix or mixing or mixture) and (fuel or "natural gas" or CNG)) or "co-feeding") AND TS=("hydrogen" OR "H2") PY=(2015-2020) 
+
+
+T12	수소시범도시 : 7,936건
+TK=((hydrogen and ("pilot" or city or town or delivery)) or "onsite" or "energy demand" or "energy supply" or "energy control" or (sharing and platform) or grid) AND TS=("hydrogen" or "h2") PY=(2015-2020)  
+
+
+T13	액상수소저장 : 1,814건
+TK=(("liquid" and organic and hydrogen and carrier) or "chemical hydride" or catalyst or "inorganic hydride" or ammonia or hydrazine) and storage) AND TS=("hydrogen" or "h2") PY=(2015-2020)
+
+ 
+T14	고체수소저장 : 11,995건
+TK=((metal and hydride) or (solid and hydrogen and storage) or chemisorption or absorb or absorbing or physisorption or ((metal and organic) or (covalent and organic)) and framework) or polymer or (absorbing and alloy)) AND TS=("hydrogen" or "h2" NOT ("hydrogen sulfide" or "hydrogen-ion")) PY=(2015-2020) 
+
+
+T15	액체수소저장 : 749건
+TK=((liquefaction and (cycle or plant)) or "tank lorry" or (cryogenics and (storage or store or (transfer or transfering) or (construct or constructing or construction) or (build or building)) or (insulate or insulation or insulating)) AND TS=("hydrogen" or "h2') PY=(2015-2020)
+
+
+T16	육상수소운송 : 124건
+TK=((mobile and fueling and station) or ((transport or transporation or transporting) and (land or car or truck)) or (tube and trailer) or (composite and tank) or "cryogenic temperature" or vaporize) AND TS=("hydrogen" or "h2") PY=(2015-2020)  
+
+
+T17	기체수소저장 : 2,886건
+TK=("high pressure" and (tube or trailer or pipe or "tube fitting" or "pipe fitting" or "trailer fitting")) or TS=(("non-mechanical" or "non mechanical" or "electrochemical" or "adsorption desorption" and compress) or TS=((electrochemic or thermochemic or hybrid) and compress) or TS=("high pressure" and (detect or leak or seal)) AND TS=("hydrogen" or "h2") NOT TS=("HYDROGEN PEROXIDE" or "hydrogen sulphate") PY=(2015-2020) 
+
+
+T18	수소충전소 : 605건
+TK=((sensor or (sense or sensing)) or (("micro-electro" or mechanic or mechanical) and system) or ((measure or measuring) and system) or ((refuel or refueling) and system) or compressor or (dispense or dispensing) or chiller or "embrittlement" or ("fuel cell" and (bus or "electric bus")) and ((charge or charging) or ((charge or charging) and (platform or site or station))) AND TS=("hydrogen" or "h2") PY=(2015-2020) 
+
+
+T19	HESS : 368건
+TK=(("large capacity" or "high pressure" or "long term") and (storage or store) and system) or ((home or building or industry) and (demonstrate or demonstration or demonstrating)) or "mega station" or (plastic and pressure and pipe) or "grid" AND TS=("hydrogen ESS" or "HESS" or "hydrogen") NOT TS=(hybrid or renewable) PY=(2015-2020) 
+
+
+T20	수소재료안전 : 118건
+TK=((material or component or pipe) and (safe or safety)) AND TS=("hydrogen" or "h2") PY=(2015-2020)
+
+
+T21	제품 설치 안전 : 56건
+TK=(((safe or safety) or secure) and ((install or installing or installment) or (equip or equipment or equipping) or (fit or fitting))) AND TS=("hydrogen" or "h2") NOT TS=("hydrogen peroxide" or "hydrogen bonding" or "hydrogen sulfide") PY=(2015-2020)
+
+
+T22	수소안전 교육 및 홍보 : 55건
+TS=((safe and education) or (safety and educating) or "safety program" or "safety promotion" or (safety and education) or "safety training" or "safety numericalization") AND TS=("hydrogen" or "h2") NOT TS=("hydrogen peroxide" or "hydrogen bonding") PY=(2015-2020) 
+
+
+T23	사고예방/피해예측/안전진단/모니터링 : 1,585건
+TS=((prevent or predict or monitor or "safety monitor") and (accident or damage or failure or risk or fire or "jet fire" or "hydrogen production" or "hydrogen transport" or "hydrogen storage" or "hydrogen induced")) or TI=((diagnose or identify or detect or discover or gas) and safety) or TS=((onsite or facility or complex or product or plant or generat) and (monitor) and (safe)) AND TS=("hydrogen" or "h2") NOT TS=("HYDROGEN PEROXIDE" OR "HYDROGEN BOND" OR "HYDROGEN SULFATE" or "hydrogen sulfide") PY=(2015-2020) 
+
+
+T24	융복합시설안전 : 875건
+TS=(((complex or "multi-fusion") or ((reform or reforming) or (standardize or standardization or standardizing) or renewable or bio or CNG)) and (safe or safety or secure)) and TS=("hydrogen" OR "H2") NOT TS=("hydrogen peroxide" or "hydrogen bonding") PY=(2015-2020) 
+
+
+T25	수소물성 데이터 베이스 구축 : 1,262건
+TK=((physical and property and ("data" or database)) or (property and test) or ((property or physical or data) and (evaluate or evaluation or evaluating)) or ((reliable or reliability) and test) or (cycle and test)) AND TS=("hydrogen" or "h2") NOT TS=("hydrogen peroxide") PY=(2015-2020) 
+
+
+T26	안전 표준화 : 34건
+TK=((safe or safety) and (standard or standardizing or stardardization)) AND TS=("hydrogen" or "h2") NOT TS=("hydrogen peroxide" or "hydrogen bonding") PY=(2015-2020)  

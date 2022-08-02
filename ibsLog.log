@@ -1,0 +1,404 @@
+2020-01-22 19:55:01,860 [INFO ] (ScopusSearcher_2020.java:125) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 19:55:01,872 [INFO ] (ScopusSearcher_2020.java:135) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 19:55:01,873 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 19:55:01,873 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 19:55:01,874 [INFO ] (ScopusSearcher_2020.java:135) : T02 / 유량계 / TI=(("flow meter") or ("level gauge") or (manometer) or ("heat meter") or ("measuring pressure") or ("checking pressure") or Anemometer) PY=(2014-2019)
+2020-01-22 19:55:01,874 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=(("flow meter") or ("level gauge") or (manometer) or ("heat meter") or ("measuring pressure") or ("checking pressure") or Anemometer) PY=(2014-2019)
+2020-01-22 19:55:01,874 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T02_유량계.txt
+2020-01-22 19:55:01,874 [INFO ] (ScopusSearcher_2020.java:135) : T03 / 전자_계측기 / TI=((("measuring" or "checking") (alpha or beta or gamma or X-ray or radiation or current or voltage or resistance)) or (oscilloscope or ("spectrum analysis"))) PY=(2014-2019)
+2020-01-22 19:55:01,874 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=((("measuring" or "checking") (alpha or beta or gamma or X-ray or radiation or current or voltage or resistance)) or (oscilloscope or ("spectrum analysis"))) PY=(2014-2019)
+2020-01-22 19:55:01,875 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T03_전자_계측기.txt
+2020-01-22 19:55:01,875 [INFO ] (ScopusSearcher_2020.java:135) : T04 / 스핀들 / (TI=(spindle) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP)) AND ASJC=(2210) PY=(2014-2019)
+2020-01-22 19:55:01,875 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=(spindle) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP)) AND ASJC=(2210) PY=(2014-2019)
+2020-01-22 19:55:01,875 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T04_스핀들.txt
+2020-01-22 19:55:01,875 [INFO ] (ScopusSearcher_2020.java:135) : T05 / 연삭가공기 / TI=(grinding (machine or machining)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,875 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=(grinding (machine or machining)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,875 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T05_연삭가공기.txt
+2020-01-22 19:55:01,876 [INFO ] (ScopusSearcher_2020.java:135) : T06 / 회전성형기 / TI=((rotational (molding or foam*))) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,876 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=((rotational (molding or foam*))) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,876 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T06_회전성형기.txt
+2020-01-22 19:55:01,876 [INFO ] (ScopusSearcher_2020.java:135) : T07 / 기어가공기 / TI=(("hobbing machine") or ("gear machining")) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,876 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=(("hobbing machine") or ("gear machining")) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,876 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T07_기어가공기.txt
+2020-01-22 19:55:01,877 [INFO ] (ScopusSearcher_2020.java:135) : T08 / 머시닝센터(CNC,_터닝센터_포함) / TI=(("machining center") or ("CNC") or ("turning center")) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,877 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=(("machining center") or ("CNC") or ("turning center")) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,877 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T08_머시닝센터(CNC,_터닝센터_포함).txt
+2020-01-22 19:55:01,877 [INFO ] (ScopusSearcher_2020.java:135) : T09 / 밸런싱머신 / TI=(("balance machine") or ("balancing machine")) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,877 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=(("balance machine") or ("balancing machine")) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,877 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T09_밸런싱머신.txt
+2020-01-22 19:55:01,877 [INFO ] (ScopusSearcher_2020.java:135) : T10 / 열교환기 / (TI=("heat exchanger") SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP)) AND ASJC=(2210 OR 2102 OR 2209 OR 1507 OR 2200) PY=(2014-2019)
+2020-01-22 19:55:01,877 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=("heat exchanger") SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP)) AND ASJC=(2210 OR 2102 OR 2209 OR 1507 OR 2200) PY=(2014-2019)
+2020-01-22 19:55:01,877 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T10_열교환기.txt
+2020-01-22 19:55:01,878 [INFO ] (ScopusSearcher_2020.java:135) : T11 / 냉동오일 / TK=("refrigeration oil" or "refrigerant oil") SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,878 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TK=("refrigeration oil" or "refrigerant oil") SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,878 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T11_냉동오일.txt
+2020-01-22 19:55:01,878 [INFO ] (ScopusSearcher_2020.java:135) : T12 / 선박용_추진장치 / ((TI=(("diesel engine") or ("motor") AND TS=((ship or vessel) (propulsion))) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP)) OR ((TI=("diesel engine") AND TK=(ship or vessel)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP)) PY=(2014-2019)
+2020-01-22 19:55:01,878 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule ((TI=(("diesel engine") or ("motor") AND TS=((ship or vessel) (propulsion))) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP)) OR ((TI=("diesel engine") AND TK=(ship or vessel)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP)) PY=(2014-2019)
+2020-01-22 19:55:01,878 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T12_선박용_추진장치.txt
+2020-01-22 19:55:01,878 [INFO ] (ScopusSearcher_2020.java:135) : T13 / 서보모터(로봇용) / TI=("servo motor" or (servo-motor)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,878 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=("servo motor" or (servo-motor)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,878 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T13_서보모터(로봇용).txt
+2020-01-22 19:55:01,878 [INFO ] (ScopusSearcher_2020.java:135) : T14 / 발전용_터빈 / (TI=(turbine (gas or steam) AND TK=(generat*)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,879 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=(turbine (gas or steam) AND TK=(generat*)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,879 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T14_발전용_터빈.txt
+2020-01-22 19:55:01,879 [INFO ] (ScopusSearcher_2020.java:135) : T15 / LNG선박용_cargo_pump / TK=((LNG or ("natural gas")) and (marine or ship or shipbuilding or carrier) and (pump or motor or FGS or "fuel gas system" or impeller)) PY=(2014-2019)
+2020-01-22 19:55:01,879 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TK=((LNG or ("natural gas")) and (marine or ship or shipbuilding or carrier) and (pump or motor or FGS or "fuel gas system" or impeller)) PY=(2014-2019)
+2020-01-22 19:55:01,879 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T15_LNG선박용_cargo_pump.txt
+2020-01-22 19:55:01,879 [INFO ] (ScopusSearcher_2020.java:135) : T16 / 압연롤 / (TK=("rolling mill" or "rolling mills") AND TS=(metal)) PY=(2014-2019)
+2020-01-22 19:55:01,879 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TK=("rolling mill" or "rolling mills") AND TS=(metal)) PY=(2014-2019)
+2020-01-22 19:55:01,879 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T16_압연롤.txt
+2020-01-22 19:55:01,879 [INFO ] (ScopusSearcher_2020.java:135) : T17 / 용접_로봇 / TI=(weld* robot*) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,880 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=(weld* robot*) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,880 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T17_용접_로봇.txt
+2020-01-22 19:55:01,880 [INFO ] (ScopusSearcher_2020.java:135) : T18 / 전기로용_발열체 / TS=("furnace" and ("heating element" or "heat element")) PY=(2014-2019)
+2020-01-22 19:55:01,880 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TS=("furnace" and ("heating element" or "heat element")) PY=(2014-2019)
+2020-01-22 19:55:01,880 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T18_전기로용_발열체.txt
+2020-01-22 19:55:01,880 [INFO ] (ScopusSearcher_2020.java:135) : T19 / 에어스프링 / (TI=(fixture or "fitting" or signalling or safety or "traffic control" or coupling or brake or bogie or wheel or buffer)) AND TK=(railway or railroad or locomotive or "rolling stock")) PY=(2014-2019)
+2020-01-22 19:55:01,880 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=(fixture or "fitting" or signalling or safety or "traffic control" or coupling or brake or bogie or wheel or buffer)) AND TK=(railway or railroad or locomotive or "rolling stock")) PY=(2014-2019)
+2020-01-22 19:55:01,880 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T19_에어스프링.txt
+2020-01-22 19:55:01,880 [INFO ] (ScopusSearcher_2020.java:135) : T20 / 미케니컬실 / TK=(Gasket or ("mechanical seal") or ("mechanical seals")) PY=(2014-2019)
+2020-01-22 19:55:01,880 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TK=(Gasket or ("mechanical seal") or ("mechanical seals")) PY=(2014-2019)
+2020-01-22 19:55:01,880 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T20_미케니컬실.txt
+2020-01-22 19:55:01,881 [INFO ] (ScopusSearcher_2020.java:135) : T21 / 컨트롤_밸브 / (TI=(valve or cock or tap or trap) AND TK=(pneumatic or safety or relief or hydraulic or pipe or boiler)) PY=(2014-2019)
+2020-01-22 19:55:01,883 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=(valve or cock or tap or trap) AND TK=(pneumatic or safety or relief or hydraulic or pipe or boiler)) PY=(2014-2019)
+2020-01-22 19:55:01,883 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T21_컨트롤_밸브.txt
+2020-01-22 19:55:01,884 [INFO ] (ScopusSearcher_2020.java:135) : T22 / 베어링 / TI=("ball bearing" or "roller bearing" or "ball bearings" or "roller bearings") PY=(2014-2019)
+2020-01-22 19:55:01,884 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=("ball bearing" or "roller bearing" or "ball bearings" or "roller bearings") PY=(2014-2019)
+2020-01-22 19:55:01,884 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T22_베어링.txt
+2020-01-22 19:55:01,884 [INFO ] (ScopusSearcher_2020.java:135) : T23 / 원심펌프 / TI=(("pump liquid") or ("fuel pump") or ("diaphram pump") or ("turbine pump") or ("centrifugal pump")) PY=(2014-2019)
+2020-01-22 19:55:01,884 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=(("pump liquid") or ("fuel pump") or ("diaphram pump") or ("turbine pump") or ("centrifugal pump")) PY=(2014-2019)
+2020-01-22 19:55:01,884 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T23_원심펌프.txt
+2020-01-22 19:55:01,884 [INFO ] (ScopusSearcher_2020.java:135) : T24 / 원심분리기 / TI=(("Centrifugal dryer") or ("centrifugal separator") or ("centrifugal separator") or (("filtering" or purifying) (machinery or beverage or gas or liquid)) or ("Clothes-dryer")) PY=(2014-2019)
+2020-01-22 19:55:01,885 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=(("Centrifugal dryer") or ("centrifugal separator") or ("centrifugal separator") or (("filtering" or purifying) (machinery or beverage or gas or liquid)) or ("Clothes-dryer")) PY=(2014-2019)
+2020-01-22 19:55:01,885 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T24_원심분리기.txt
+2020-01-22 19:55:01,885 [INFO ] (ScopusSearcher_2020.java:135) : T25 / 감속기(로봇용) / TI=(reducer) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,885 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=(reducer) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,885 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T25_감속기(로봇용).txt
+2020-01-22 19:55:01,885 [INFO ] (ScopusSearcher_2020.java:135) : T26 / 조인트류 / TI=((joint or coupling) (drive or expansion or rotary or swivel)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,885 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=((joint or coupling) (drive or expansion or rotary or swivel)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,885 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T26_조인트류.txt
+2020-01-22 19:55:01,885 [INFO ] (ScopusSearcher_2020.java:135) : T27 / 실린더 / TI=((hydraulic or pneumatic) (cylinder)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,885 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=((hydraulic or pneumatic) (cylinder)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,885 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T27_실린더.txt
+2020-01-22 19:55:01,885 [INFO ] (ScopusSearcher_2020.java:135) : T28 / 직조기 / (TI=(loom or "weaving") AND TS=(fabric or textile or knit)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,886 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=(loom or "weaving") AND TS=(fabric or textile or knit)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,886 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T28_직조기.txt
+2020-01-22 19:55:01,886 [INFO ] (ScopusSearcher_2020.java:135) : T29 / 레이저가공기 / TI=(laser (machine or machining)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,886 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=(laser (machine or machining)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,886 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T29_레이저가공기.txt
+2020-01-22 19:55:01,886 [INFO ] (ScopusSearcher_2020.java:135) : T30 / 항공,_반도체용_방전가공기 / TI=(discharge (machine or machining)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,886 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=(discharge (machine or machining)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,886 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T30_항공,_반도체용_방전가공기.txt
+2020-01-22 19:55:01,886 [INFO ] (ScopusSearcher_2020.java:135) : T31 / 여과장치 / ((TI=(filter) NOT TS=(kalman)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP)) AND ASJC=(2210 OR 2310 OR 1500 OR 2305) PY=(2014-2019)
+2020-01-22 19:55:01,886 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule ((TI=(filter) NOT TS=(kalman)) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP)) AND ASJC=(2210 OR 2310 OR 1500 OR 2305) PY=(2014-2019)
+2020-01-22 19:55:01,886 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T31_여과장치.txt
+2020-01-22 19:55:01,887 [INFO ] (ScopusSearcher_2020.java:135) : T32 / HEPA_필터 / TI=("hepa" filter) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,887 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=("hepa" filter) SRCTYPE=(D OR J OR P OR R) DOCTYPE=(AR OR BZ OR CP OR PA OR RE OR RP) PY=(2014-2019)
+2020-01-22 19:55:01,887 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T32_HEPA_필터.txt
+2020-01-22 19:55:01,887 [INFO ] (ScopusSearcher_2020.java:135) : T33 / 금형강 / TI=("die steel" or "die sttels" or "mold steel" or "mold steels" or "mould steel" or "mould steels") PY=(2014-2019)
+2020-01-22 19:55:01,887 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=("die steel" or "die sttels" or "mold steel" or "mold steels" or "mould steel" or "mould steels") PY=(2014-2019)
+2020-01-22 19:55:01,887 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T33_금형강.txt
+2020-01-22 19:55:01,887 [INFO ] (ScopusSearcher_2020.java:135) : T34 / 고경도_공구 / (TS=("high hardness")) AND (TI=(tool or tools)) PY=(2014-2019)
+2020-01-22 19:55:01,887 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TS=("high hardness")) AND (TI=(tool or tools)) PY=(2014-2019)
+2020-01-22 19:55:01,887 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T34_고경도_공구.txt
+2020-01-22 19:55:01,887 [INFO ] (ScopusSearcher_2020.java:135) : T35 / 고강도_알루미늄_합금 / TI=("high strength" and (Al or aluminum or aluminium) and alloy*) PY=(2014-2019)
+2020-01-22 19:55:01,887 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=("high strength" and (Al or aluminum or aluminium) and alloy*) PY=(2014-2019)
+2020-01-22 19:55:01,887 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T35_고강도_알루미늄_합금.txt
+2020-01-22 19:55:01,888 [INFO ] (ScopusSearcher_2020.java:135) : T36 / 동합금_ / (TS=(free and cut*)) AND (TI=((Cu or copper) and alloy*)) AND (TS=("pb-free" or "lead-free" or ((pb or lead) and free))) PY=(2014-2019)
+2020-01-22 19:55:01,888 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TS=(free and cut*)) AND (TI=((Cu or copper) and alloy*)) AND (TS=("pb-free" or "lead-free" or ((pb or lead) and free))) PY=(2014-2019)
+2020-01-22 19:55:01,888 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T36_동합금_.txt
+2020-01-22 19:55:01,888 [INFO ] (ScopusSearcher_2020.java:135) : T37 / 니켈_및_니켈분말 / ((TS=("high purity")) AND (TI=(nickel or Ni)) AND (TS=(preparat* or purificat*))) OR (TI=("high purity nickel" or "high purity Ni")) PY=(2014-2019)
+2020-01-22 19:55:01,888 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule ((TS=("high purity")) AND (TI=(nickel or Ni)) AND (TS=(preparat* or purificat*))) OR (TI=("high purity nickel" or "high purity Ni")) PY=(2014-2019)
+2020-01-22 19:55:01,888 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T37_니켈_및_니켈분말.txt
+2020-01-22 19:55:01,888 [INFO ] (ScopusSearcher_2020.java:135) : T38 / 몰리브덴_합금 / (TI=("Molybdenum alloy")) AND ASJC=(2506) PY=(2014-2019)
+2020-01-22 19:55:01,888 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=("Molybdenum alloy")) AND ASJC=(2506) PY=(2014-2019)
+2020-01-22 19:55:01,888 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T38_몰리브덴_합금.txt
+2020-01-22 19:55:01,888 [INFO ] (ScopusSearcher_2020.java:135) : T39 / 티타늄_합금 / (TI=("titanium alloy")) AND ASJC=(2506) PY=(2014-2019)
+2020-01-22 19:55:01,888 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=("titanium alloy")) AND ASJC=(2506) PY=(2014-2019)
+2020-01-22 19:55:01,888 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T39_티타늄_합금.txt
+2020-01-22 19:55:01,889 [INFO ] (ScopusSearcher_2020.java:135) : T40 / 희유금속 / (TI=(rare and metal*)) AND ASJC=(2506) PY=(2014-2019)
+2020-01-22 19:55:01,889 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=(rare and metal*)) AND ASJC=(2506) PY=(2014-2019)
+2020-01-22 19:55:01,889 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T40_희유금속.txt
+2020-01-22 19:55:01,889 [INFO ] (ScopusSearcher_2020.java:135) : T41 / 전로_MHP / (TI=(MHP or "Multi hole plug")) AND (TS=(convertor* or converter* or (steel* and (making* or manufactur*)))) PY=(2014-2019)
+2020-01-22 19:55:01,889 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=(MHP or "Multi hole plug")) AND (TS=(convertor* or converter* or (steel* and (making* or manufactur*)))) PY=(2014-2019)
+2020-01-22 19:55:01,889 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T41_전로_MHP.txt
+2020-01-22 19:55:01,889 [INFO ] (ScopusSearcher_2020.java:135) : T42 / 제철_Spray_Nozzle / (TI=(spray and nozzle*)) AND (TS=((iron* or steel*) and (making* or manufact* or product*)) PY=(2014-2019)
+2020-01-22 19:55:01,889 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=(spray and nozzle*)) AND (TS=((iron* or steel*) and (making* or manufact* or product*)) PY=(2014-2019)
+2020-01-22 19:55:01,889 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T42_제철_Spray_Nozzle.txt
+2020-01-22 19:55:01,889 [INFO ] (ScopusSearcher_2020.java:135) : T43 / 자동차_부품용_봉강_소재 / (TS=(automotive* or automobile* or car or vehicle*)) AND (TI=((bar or bars or rod or rods) and steel*)) PY=(2014-2019)
+2020-01-22 19:55:01,889 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TS=(automotive* or automobile* or car or vehicle*)) AND (TI=((bar or bars or rod or rods) and steel*)) PY=(2014-2019)
+2020-01-22 19:55:01,890 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T43_자동차_부품용_봉강_소재.txt
+2020-01-22 19:55:01,890 [INFO ] (ScopusSearcher_2020.java:135) : T44 / 고급형강 / TI=("shape steel" or "shape steels") PY=(2014-2019)
+2020-01-22 19:55:01,890 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=("shape steel" or "shape steels") PY=(2014-2019)
+2020-01-22 19:55:01,890 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T44_고급형강.txt
+2020-01-22 19:55:01,890 [INFO ] (ScopusSearcher_2020.java:135) : T45 / 쾌삭강_고급_선재 / (TI=("free cutting steel" or "free cutting steels" or "free-cutting steel" or "free-cutting steels")) OR ((TS=("free cutting steel" or "free cutting steels" or "free-cutting steel" or "free-cutting steels")) AND (TI=(wire* or rod"))) PY=(2014-2019)
+2020-01-22 19:55:01,890 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=("free cutting steel" or "free cutting steels" or "free-cutting steel" or "free-cutting steels")) OR ((TS=("free cutting steel" or "free cutting steels" or "free-cutting steel" or "free-cutting steels")) AND (TI=(wire* or rod"))) PY=(2014-2019)
+2020-01-22 19:55:01,890 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T45_쾌삭강_고급_선재.txt
+2020-01-22 19:55:01,890 [INFO ] (ScopusSearcher_2020.java:135) : T46 / LNG선박용_고기능성_중후판_철강_소재 / (TS=((LNG or "liquefied natural gas" or "liquefied nature gas") and ship*)) AND (TI=(steel* and (plate* or sheet*))) PY=(2014-2019)
+2020-01-22 19:55:01,890 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TS=((LNG or "liquefied natural gas" or "liquefied nature gas") and ship*)) AND (TI=(steel* and (plate* or sheet*))) PY=(2014-2019)
+2020-01-22 19:55:01,890 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T46_LNG선박용_고기능성_중후판_철강_소재.txt
+2020-01-22 19:55:01,890 [INFO ] (ScopusSearcher_2020.java:135) : T47 / 고부가가치_스테인리스강 / (TS=("high-value" or "higher-value" or "high value" or "higher value")) AND (TI=(stainless)) PY=(2014-2019)
+2020-01-22 19:55:01,890 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TS=("high-value" or "higher-value" or "high value" or "higher value")) AND (TI=(stainless)) PY=(2014-2019)
+2020-01-22 19:55:01,890 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T47_고부가가치_스테인리스강.txt
+2020-01-22 19:55:01,891 [INFO ] (ScopusSearcher_2020.java:135) : T48 / 변압기용_고효율_전기강판 / (TI=("electrical steel" or "electrical steels")) AND (TS=(transformer* or ( "grain oriented" not "non grain oriented"))) PY=(2014-2019)
+2020-01-22 19:55:01,891 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=("electrical steel" or "electrical steels")) AND (TS=(transformer* or ( "grain oriented" not "non grain oriented"))) PY=(2014-2019)
+2020-01-22 19:55:01,891 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T48_변압기용_고효율_전기강판.txt
+2020-01-22 19:55:01,891 [INFO ] (ScopusSearcher_2020.java:135) : T49 / 특수_무계목강관 / TI=(seamless and steel* and (tube* or pipe* or tubing or piping)) PY=(2014-2019)
+2020-01-22 19:55:01,891 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule TI=(seamless and steel* and (tube* or pipe* or tubing or piping)) PY=(2014-2019)
+2020-01-22 19:55:01,891 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T49_특수_무계목강관.txt
+2020-01-22 19:56:32,015 [INFO ] (ScopusSearcher_2020.java:125) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 19:56:32,017 [INFO ] (ScopusSearcher_2020.java:135) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 19:56:32,018 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 19:56:32,018 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 19:56:32,122 [INFO ] (DownloadSearchUtil.java:213) : 30초간 기다립니다.
+2020-01-22 19:56:32,122 [INFO ] (DescriptionCodeManager.java:62) : Description 정보를 로딩하고 있습니다.
+2020-01-22 19:56:32,218 [WARN ] (ConnectionFactory.java:65) : JEUS JNDI를 이용한 커넥션 정보를 가져오지 못했습니다.
+2020-01-22 19:56:32,449 [INFO ] (DescriptionCodeManager.java:64) : 1/6 : source type 정보 로딩이 완료되었습니다. 
+2020-01-22 19:56:32,471 [INFO ] (DescriptionCodeManager.java:66) : 2/6 : citation type 정보 로딩이 완료되었습니다. 
+2020-01-22 19:56:32,654 [INFO ] (DescriptionCodeManager.java:68) : 3/6 : asjc type (kor) 정보 로딩이 완료되었습니다. 
+2020-01-22 19:56:32,814 [INFO ] (DescriptionCodeManager.java:70) : 4/6 : asjc type (eng) 정보 로딩이 완료되었습니다. 
+2020-01-22 19:56:33,299 [INFO ] (DescriptionCodeManager.java:72) : 5/6 : country code 정보 로딩이 완료되었습니다. 
+2020-01-22 20:07:03,040 [INFO ] (ScopusSearcher_2020.java:125) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 20:07:03,042 [INFO ] (ScopusSearcher_2020.java:135) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 20:07:03,043 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 20:07:03,043 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 20:07:03,051 [INFO ] (DownloadSearchUtil.java:213) : 30초간 기다립니다.
+2020-01-22 20:07:03,051 [INFO ] (DescriptionCodeManager.java:62) : Description 정보를 로딩하고 있습니다.
+2020-01-22 20:07:03,083 [WARN ] (ConnectionFactory.java:65) : JEUS JNDI를 이용한 커넥션 정보를 가져오지 못했습니다.
+2020-01-22 20:07:03,292 [INFO ] (DescriptionCodeManager.java:64) : 1/6 : source type 정보 로딩이 완료되었습니다. 
+2020-01-22 20:07:03,318 [INFO ] (DescriptionCodeManager.java:66) : 2/6 : citation type 정보 로딩이 완료되었습니다. 
+2020-01-22 20:07:03,492 [INFO ] (DescriptionCodeManager.java:68) : 3/6 : asjc type (kor) 정보 로딩이 완료되었습니다. 
+2020-01-22 20:07:03,667 [INFO ] (DescriptionCodeManager.java:70) : 4/6 : asjc type (eng) 정보 로딩이 완료되었습니다. 
+2020-01-22 20:07:04,186 [INFO ] (DescriptionCodeManager.java:72) : 5/6 : country code 정보 로딩이 완료되었습니다. 
+2020-01-22 20:07:34,993 [INFO ] (EStemming.java:57) : EJIANA_HOME : D:/Project/kisti/KISTI_SCOPUS_2014_PLATFORM/WebContent/WEB-INF\
+2020-01-22 20:07:34,996 [INFO ] (DownloadSearchUtil.java:302) : Total Search Count : 0
+2020-01-22 20:07:34,996 [ERROR] (DownloadSearchUtil.java:303) : 
+java.lang.RuntimeException
+	at com.diquest.ejiana.util.SymbolMap.load(SymbolMap.java:102)
+	at com.diquest.ejiana.tagger.PosTagger.registDics(PosTagger.java:563)
+	at com.diquest.ejiana.tagger.PosTagger.initImp(PosTagger.java:125)
+	at com.diquest.ejiana.tagger.PosTagger.init(PosTagger.java:105)
+	at kr.co.diquest.util.nlp.EStemming.<init>(EStemming.java:68)
+	at kr.co.diquest.search.rule.QueryConverterWoS.<init>(QueryConverterWoS.java:68)
+	at test.kisti.DownloadSearchUtil.getDownloadQuery(DownloadSearchUtil.java:481)
+	at test.kisti.DownloadSearchUtil.execute(DownloadSearchUtil.java:224)
+	at test.kisti.DownloadScopusData.<init>(DownloadScopusData.java:81)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.main(ScopusSearcher_2020.java:140)
+2020-01-22 20:07:41,630 [INFO ] (DescriptionCodeManager.java:74) : 6/6 : delegate affiliation 정보 로딩이 완료되었습니다. 
+2020-01-22 22:08:08,174 [INFO ] (ScopusSearcher_2020.java:125) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 22:08:08,207 [INFO ] (ScopusSearcher_2020.java:135) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:08:08,208 [DEBUG] (ScopusSearcher_2020.java:138) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:08:08,208 [DEBUG] (ScopusSearcher_2020.java:139) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 22:08:08,303 [INFO ] (DownloadSearchUtil.java:213) : 30초간 기다립니다.
+2020-01-22 22:08:08,303 [INFO ] (DescriptionCodeManager.java:62) : Description 정보를 로딩하고 있습니다.
+2020-01-22 22:08:08,438 [WARN ] (ConnectionFactory.java:65) : JEUS JNDI를 이용한 커넥션 정보를 가져오지 못했습니다.
+2020-01-22 22:08:08,745 [INFO ] (DescriptionCodeManager.java:64) : 1/6 : source type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:08:08,767 [INFO ] (DescriptionCodeManager.java:66) : 2/6 : citation type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:08:08,920 [INFO ] (DescriptionCodeManager.java:68) : 3/6 : asjc type (kor) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:08:09,073 [INFO ] (DescriptionCodeManager.java:70) : 4/6 : asjc type (eng) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:08:09,510 [INFO ] (DescriptionCodeManager.java:72) : 5/6 : country code 정보 로딩이 완료되었습니다. 
+2020-01-22 22:08:38,321 [INFO ] (DescriptionCodeManager.java:74) : 6/6 : delegate affiliation 정보 로딩이 완료되었습니다. 
+2020-01-22 22:08:38,539 [INFO ] (EStemming.java:57) : EJIANA_HOME : D:/Project/kisti/KISTI_SCOPUS_2014_PLATFORM/WebContent/WEB-INF\
+2020-01-22 22:08:38,551 [INFO ] (DownloadSearchUtil.java:302) : Total Search Count : 0
+2020-01-22 22:08:38,551 [ERROR] (DownloadSearchUtil.java:303) : 
+java.lang.RuntimeException
+	at com.diquest.ejiana.util.SymbolMap.load(SymbolMap.java:102)
+	at com.diquest.ejiana.tagger.PosTagger.registDics(PosTagger.java:563)
+	at com.diquest.ejiana.tagger.PosTagger.initImp(PosTagger.java:125)
+	at com.diquest.ejiana.tagger.PosTagger.init(PosTagger.java:105)
+	at kr.co.diquest.util.nlp.EStemming.<init>(EStemming.java:68)
+	at kr.co.diquest.search.rule.QueryConverterWoS.<init>(QueryConverterWoS.java:68)
+	at test.kisti.DownloadSearchUtil.getDownloadQuery(DownloadSearchUtil.java:481)
+	at test.kisti.DownloadSearchUtil.execute(DownloadSearchUtil.java:224)
+	at test.kisti.DownloadScopusData.<init>(DownloadScopusData.java:81)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.main(ScopusSearcher_2020.java:140)
+2020-01-22 22:19:20,647 [INFO ] (ScopusSearcher_2020.java:132) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 22:19:20,649 [INFO ] (ScopusSearcher_2020.java:142) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:19:20,650 [DEBUG] (ScopusSearcher_2020.java:145) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:19:20,650 [DEBUG] (ScopusSearcher_2020.java:146) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 22:19:20,657 [INFO ] (DownloadSearchUtil.java:213) : 30초간 기다립니다.
+2020-01-22 22:19:20,657 [INFO ] (DescriptionCodeManager.java:62) : Description 정보를 로딩하고 있습니다.
+2020-01-22 22:19:20,689 [WARN ] (ConnectionFactory.java:65) : JEUS JNDI를 이용한 커넥션 정보를 가져오지 못했습니다.
+2020-01-22 22:19:20,898 [INFO ] (DescriptionCodeManager.java:64) : 1/6 : source type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:19:20,922 [INFO ] (DescriptionCodeManager.java:66) : 2/6 : citation type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:19:21,098 [INFO ] (DescriptionCodeManager.java:68) : 3/6 : asjc type (kor) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:19:21,274 [INFO ] (DescriptionCodeManager.java:70) : 4/6 : asjc type (eng) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:19:21,782 [INFO ] (DescriptionCodeManager.java:72) : 5/6 : country code 정보 로딩이 완료되었습니다. 
+2020-01-22 22:19:50,793 [INFO ] (EStemming.java:57) : EJIANA_HOME : D:/Project/kisti/KISTI_SCOPUS_2014_PLATFORM/WebContent/WEB-INF\
+2020-01-22 22:19:50,797 [INFO ] (DownloadSearchUtil.java:302) : Total Search Count : 0
+2020-01-22 22:19:50,797 [ERROR] (DownloadSearchUtil.java:303) : 
+java.lang.RuntimeException
+	at com.diquest.ejiana.util.SymbolMap.load(SymbolMap.java:102)
+	at com.diquest.ejiana.tagger.PosTagger.registDics(PosTagger.java:563)
+	at com.diquest.ejiana.tagger.PosTagger.initImp(PosTagger.java:125)
+	at com.diquest.ejiana.tagger.PosTagger.init(PosTagger.java:105)
+	at kr.co.diquest.util.nlp.EStemming.<init>(EStemming.java:68)
+	at kr.co.diquest.search.rule.QueryConverterWoS.<init>(QueryConverterWoS.java:68)
+	at test.kisti.DownloadSearchUtil.getDownloadQuery(DownloadSearchUtil.java:481)
+	at test.kisti.DownloadSearchUtil.execute(DownloadSearchUtil.java:224)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.<init>(ScopusSearcher_2020.java:119)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.main(ScopusSearcher_2020.java:147)
+2020-01-22 22:19:51,303 [INFO ] (DescriptionCodeManager.java:74) : 6/6 : delegate affiliation 정보 로딩이 완료되었습니다. 
+2020-01-22 22:20:34,902 [INFO ] (ScopusSearcher_2020.java:121) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 22:20:34,904 [INFO ] (ScopusSearcher_2020.java:131) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:20:34,905 [DEBUG] (ScopusSearcher_2020.java:134) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:20:34,905 [DEBUG] (ScopusSearcher_2020.java:135) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 22:20:34,911 [INFO ] (DownloadSearchUtil.java:213) : 30초간 기다립니다.
+2020-01-22 22:20:34,911 [INFO ] (DescriptionCodeManager.java:62) : Description 정보를 로딩하고 있습니다.
+2020-01-22 22:20:34,947 [WARN ] (ConnectionFactory.java:65) : JEUS JNDI를 이용한 커넥션 정보를 가져오지 못했습니다.
+2020-01-22 22:20:35,165 [INFO ] (DescriptionCodeManager.java:64) : 1/6 : source type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:20:35,188 [INFO ] (DescriptionCodeManager.java:66) : 2/6 : citation type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:20:35,358 [INFO ] (DescriptionCodeManager.java:68) : 3/6 : asjc type (kor) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:20:35,532 [INFO ] (DescriptionCodeManager.java:70) : 4/6 : asjc type (eng) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:20:36,035 [INFO ] (DescriptionCodeManager.java:72) : 5/6 : country code 정보 로딩이 완료되었습니다. 
+2020-01-22 22:21:05,046 [INFO ] (EStemming.java:57) : EJIANA_HOME : D:/Project/kisti/KISTI_SCOPUS_2014_PLATFORM/WebContent/WEB-INF\
+2020-01-22 22:21:05,050 [INFO ] (DownloadSearchUtil.java:302) : Total Search Count : 0
+2020-01-22 22:21:05,051 [ERROR] (DownloadSearchUtil.java:303) : 
+java.lang.RuntimeException
+	at com.diquest.ejiana.util.SymbolMap.load(SymbolMap.java:102)
+	at com.diquest.ejiana.tagger.PosTagger.registDics(PosTagger.java:563)
+	at com.diquest.ejiana.tagger.PosTagger.initImp(PosTagger.java:125)
+	at com.diquest.ejiana.tagger.PosTagger.init(PosTagger.java:105)
+	at kr.co.diquest.util.nlp.EStemming.<init>(EStemming.java:68)
+	at kr.co.diquest.search.rule.QueryConverterWoS.<init>(QueryConverterWoS.java:68)
+	at test.kisti.DownloadSearchUtil.getDownloadQuery(DownloadSearchUtil.java:481)
+	at test.kisti.DownloadSearchUtil.execute(DownloadSearchUtil.java:224)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.<init>(ScopusSearcher_2020.java:109)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.main(ScopusSearcher_2020.java:136)
+2020-01-22 22:21:05,584 [INFO ] (DescriptionCodeManager.java:74) : 6/6 : delegate affiliation 정보 로딩이 완료되었습니다. 
+2020-01-22 22:23:23,274 [INFO ] (ScopusSearcher_2020.java:121) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 22:23:23,276 [INFO ] (ScopusSearcher_2020.java:131) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:23:23,277 [DEBUG] (ScopusSearcher_2020.java:134) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:23:23,277 [DEBUG] (ScopusSearcher_2020.java:135) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 22:23:23,284 [INFO ] (DownloadSearchUtil.java:213) : 30초간 기다립니다.
+2020-01-22 22:23:23,284 [INFO ] (DescriptionCodeManager.java:62) : Description 정보를 로딩하고 있습니다.
+2020-01-22 22:23:23,316 [WARN ] (ConnectionFactory.java:65) : JEUS JNDI를 이용한 커넥션 정보를 가져오지 못했습니다.
+2020-01-22 22:23:23,522 [INFO ] (DescriptionCodeManager.java:64) : 1/6 : source type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:23:23,547 [INFO ] (DescriptionCodeManager.java:66) : 2/6 : citation type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:23:23,725 [INFO ] (DescriptionCodeManager.java:68) : 3/6 : asjc type (kor) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:23:23,906 [INFO ] (DescriptionCodeManager.java:70) : 4/6 : asjc type (eng) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:23:24,422 [INFO ] (DescriptionCodeManager.java:72) : 5/6 : country code 정보 로딩이 완료되었습니다. 
+2020-01-22 22:23:53,861 [INFO ] (EStemming.java:57) : EJIANA_HOME : D:/Project/kisti/KISTI_SCOPUS_2014_PLATFORM/WebContent/WEB-INF\
+2020-01-22 22:23:53,865 [INFO ] (DownloadSearchUtil.java:302) : Total Search Count : 0
+2020-01-22 22:23:53,866 [ERROR] (DownloadSearchUtil.java:303) : 
+java.lang.RuntimeException
+	at com.diquest.ejiana.util.SymbolMap.load(SymbolMap.java:102)
+	at com.diquest.ejiana.tagger.PosTagger.registDics(PosTagger.java:563)
+	at com.diquest.ejiana.tagger.PosTagger.initImp(PosTagger.java:125)
+	at com.diquest.ejiana.tagger.PosTagger.init(PosTagger.java:105)
+	at kr.co.diquest.util.nlp.EStemming.<init>(EStemming.java:68)
+	at kr.co.diquest.search.rule.QueryConverterWoS.<init>(QueryConverterWoS.java:68)
+	at test.kisti.DownloadSearchUtil.getDownloadQuery(DownloadSearchUtil.java:481)
+	at test.kisti.DownloadSearchUtil.execute(DownloadSearchUtil.java:224)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.<init>(ScopusSearcher_2020.java:109)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.main(ScopusSearcher_2020.java:136)
+2020-01-22 22:23:54,283 [INFO ] (DescriptionCodeManager.java:74) : 6/6 : delegate affiliation 정보 로딩이 완료되었습니다. 
+2020-01-22 22:26:21,596 [INFO ] (ScopusSearcher_2020.java:117) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 22:26:21,596 [INFO ] (ScopusSearcher_2020.java:117) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 22:26:21,598 [INFO ] (ScopusSearcher_2020.java:127) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:26:21,598 [INFO ] (ScopusSearcher_2020.java:127) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:26:21,599 [DEBUG] (ScopusSearcher_2020.java:130) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:26:21,599 [DEBUG] (ScopusSearcher_2020.java:130) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:26:21,600 [DEBUG] (ScopusSearcher_2020.java:131) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 22:26:21,600 [DEBUG] (ScopusSearcher_2020.java:131) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 22:26:21,606 [INFO ] (DownloadSearchUtil.java:213) : 30초간 기다립니다.
+2020-01-22 22:26:21,606 [INFO ] (DescriptionCodeManager.java:62) : Description 정보를 로딩하고 있습니다.
+2020-01-22 22:26:21,638 [WARN ] (ConnectionFactory.java:65) : JEUS JNDI를 이용한 커넥션 정보를 가져오지 못했습니다.
+2020-01-22 22:26:21,847 [INFO ] (DescriptionCodeManager.java:64) : 1/6 : source type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:26:21,870 [INFO ] (DescriptionCodeManager.java:66) : 2/6 : citation type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:26:22,045 [INFO ] (DescriptionCodeManager.java:68) : 3/6 : asjc type (kor) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:26:22,220 [INFO ] (DescriptionCodeManager.java:70) : 4/6 : asjc type (eng) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:26:22,755 [INFO ] (DescriptionCodeManager.java:72) : 5/6 : country code 정보 로딩이 완료되었습니다. 
+2020-01-22 22:26:51,743 [INFO ] (EStemming.java:57) : EJIANA_HOME : D:/Project/kisti/KISTI_SCOPUS_2014_PLATFORM/WebContent/WEB-INF\
+2020-01-22 22:26:51,746 [INFO ] (DownloadSearchUtil.java:302) : Total Search Count : 0
+2020-01-22 22:26:51,747 [ERROR] (DownloadSearchUtil.java:303) : 
+java.lang.RuntimeException
+	at com.diquest.ejiana.util.SymbolMap.load(SymbolMap.java:102)
+	at com.diquest.ejiana.tagger.PosTagger.registDics(PosTagger.java:563)
+	at com.diquest.ejiana.tagger.PosTagger.initImp(PosTagger.java:125)
+	at com.diquest.ejiana.tagger.PosTagger.init(PosTagger.java:105)
+	at kr.co.diquest.util.nlp.EStemming.<init>(EStemming.java:68)
+	at kr.co.diquest.search.rule.QueryConverterWoS.<init>(QueryConverterWoS.java:68)
+	at test.kisti.DownloadSearchUtil.getDownloadQuery(DownloadSearchUtil.java:481)
+	at test.kisti.DownloadSearchUtil.execute(DownloadSearchUtil.java:224)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.<init>(ScopusSearcher_2020.java:106)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.main(ScopusSearcher_2020.java:132)
+2020-01-22 22:26:52,347 [INFO ] (DescriptionCodeManager.java:74) : 6/6 : delegate affiliation 정보 로딩이 완료되었습니다. 
+2020-01-22 22:28:41,573 [INFO ] (ScopusSearcher_2020.java:117) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 22:28:41,573 [INFO ] (ScopusSearcher_2020.java:117) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 22:28:41,575 [INFO ] (ScopusSearcher_2020.java:127) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:28:41,575 [INFO ] (ScopusSearcher_2020.java:127) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:28:41,576 [DEBUG] (ScopusSearcher_2020.java:130) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:28:41,576 [DEBUG] (ScopusSearcher_2020.java:130) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:28:41,576 [DEBUG] (ScopusSearcher_2020.java:131) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 22:28:41,576 [DEBUG] (ScopusSearcher_2020.java:131) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 22:28:41,583 [INFO ] (DownloadSearchUtil.java:213) : 30초간 기다립니다.
+2020-01-22 22:28:41,583 [INFO ] (DescriptionCodeManager.java:62) : Description 정보를 로딩하고 있습니다.
+2020-01-22 22:28:41,615 [WARN ] (ConnectionFactory.java:65) : JEUS JNDI를 이용한 커넥션 정보를 가져오지 못했습니다.
+2020-01-22 22:28:41,823 [INFO ] (DescriptionCodeManager.java:64) : 1/6 : source type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:28:41,848 [INFO ] (DescriptionCodeManager.java:66) : 2/6 : citation type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:28:42,027 [INFO ] (DescriptionCodeManager.java:68) : 3/6 : asjc type (kor) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:28:42,204 [INFO ] (DescriptionCodeManager.java:70) : 4/6 : asjc type (eng) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:28:42,720 [INFO ] (DescriptionCodeManager.java:72) : 5/6 : country code 정보 로딩이 완료되었습니다. 
+2020-01-22 22:29:11,718 [INFO ] (EStemming.java:57) : EJIANA_HOME : d:eleasemarineresources\
+2020-01-22 22:29:11,722 [INFO ] (DownloadSearchUtil.java:302) : Total Search Count : 0
+2020-01-22 22:29:11,722 [ERROR] (DownloadSearchUtil.java:303) : 
+java.lang.RuntimeException
+	at com.diquest.ejiana.util.SymbolMap.load(SymbolMap.java:102)
+	at com.diquest.ejiana.tagger.PosTagger.registDics(PosTagger.java:563)
+	at com.diquest.ejiana.tagger.PosTagger.initImp(PosTagger.java:125)
+	at com.diquest.ejiana.tagger.PosTagger.init(PosTagger.java:105)
+	at kr.co.diquest.util.nlp.EStemming.<init>(EStemming.java:68)
+	at kr.co.diquest.search.rule.QueryConverterWoS.<init>(QueryConverterWoS.java:68)
+	at test.kisti.DownloadSearchUtil.getDownloadQuery(DownloadSearchUtil.java:481)
+	at test.kisti.DownloadSearchUtil.execute(DownloadSearchUtil.java:224)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.<init>(ScopusSearcher_2020.java:106)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.main(ScopusSearcher_2020.java:132)
+2020-01-22 22:29:13,351 [INFO ] (DescriptionCodeManager.java:74) : 6/6 : delegate affiliation 정보 로딩이 완료되었습니다. 
+2020-01-22 22:29:31,174 [INFO ] (ScopusSearcher_2020.java:117) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 22:29:31,174 [INFO ] (ScopusSearcher_2020.java:117) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 22:29:31,175 [INFO ] (ScopusSearcher_2020.java:127) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:29:31,175 [INFO ] (ScopusSearcher_2020.java:127) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:29:31,176 [DEBUG] (ScopusSearcher_2020.java:130) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:29:31,176 [DEBUG] (ScopusSearcher_2020.java:130) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:29:31,177 [DEBUG] (ScopusSearcher_2020.java:131) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 22:29:31,177 [DEBUG] (ScopusSearcher_2020.java:131) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 22:29:31,183 [INFO ] (DownloadSearchUtil.java:213) : 30초간 기다립니다.
+2020-01-22 22:29:31,183 [INFO ] (DescriptionCodeManager.java:62) : Description 정보를 로딩하고 있습니다.
+2020-01-22 22:29:31,214 [WARN ] (ConnectionFactory.java:65) : JEUS JNDI를 이용한 커넥션 정보를 가져오지 못했습니다.
+2020-01-22 22:29:31,414 [INFO ] (DescriptionCodeManager.java:64) : 1/6 : source type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:29:31,435 [INFO ] (DescriptionCodeManager.java:66) : 2/6 : citation type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:29:31,586 [INFO ] (DescriptionCodeManager.java:68) : 3/6 : asjc type (kor) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:29:31,736 [INFO ] (DescriptionCodeManager.java:70) : 4/6 : asjc type (eng) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:29:32,181 [INFO ] (DescriptionCodeManager.java:72) : 5/6 : country code 정보 로딩이 완료되었습니다. 
+2020-01-22 22:30:00,950 [INFO ] (DescriptionCodeManager.java:74) : 6/6 : delegate affiliation 정보 로딩이 완료되었습니다. 
+2020-01-22 22:30:01,318 [INFO ] (EStemming.java:57) : EJIANA_HOME : d:/release/mariner/resources/\
+2020-01-22 22:30:01,322 [INFO ] (DownloadSearchUtil.java:302) : Total Search Count : 0
+2020-01-22 22:30:01,322 [ERROR] (DownloadSearchUtil.java:303) : 
+java.lang.RuntimeException
+	at com.diquest.ejiana.util.SymbolMap.load(SymbolMap.java:102)
+	at com.diquest.ejiana.tagger.PosTagger.registDics(PosTagger.java:563)
+	at com.diquest.ejiana.tagger.PosTagger.initImp(PosTagger.java:125)
+	at com.diquest.ejiana.tagger.PosTagger.init(PosTagger.java:105)
+	at kr.co.diquest.util.nlp.EStemming.<init>(EStemming.java:68)
+	at kr.co.diquest.search.rule.QueryConverterWoS.<init>(QueryConverterWoS.java:68)
+	at test.kisti.DownloadSearchUtil.getDownloadQuery(DownloadSearchUtil.java:481)
+	at test.kisti.DownloadSearchUtil.execute(DownloadSearchUtil.java:224)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.<init>(ScopusSearcher_2020.java:106)
+	at com.diquest.scopus.searcher._2020.RnD.ScopusSearcher_2020.main(ScopusSearcher_2020.java:132)
+2020-01-22 22:31:02,165 [INFO ] (ScopusSearcher_2020.java:117) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 22:31:02,165 [INFO ] (ScopusSearcher_2020.java:117) : excel data (논문검색식)-소부장(기계금속)-이방래_20200109.xlsx
+2020-01-22 22:31:02,167 [INFO ] (ScopusSearcher_2020.java:127) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:31:02,167 [INFO ] (ScopusSearcher_2020.java:127) : T01 / 광계측기 / (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:31:02,168 [DEBUG] (ScopusSearcher_2020.java:130) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:31:02,168 [DEBUG] (ScopusSearcher_2020.java:130) : searchRule (TI=(compass) AND TK=(direction or navigation or gps)) or (TI=(meter) AND TK=(gas or liquid or electricity)) or (TI=(weighing machine)) PY=(2014-2019)
+2020-01-22 22:31:02,168 [DEBUG] (ScopusSearcher_2020.java:131) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 22:31:02,168 [DEBUG] (ScopusSearcher_2020.java:131) : download path d:\data\2020\yeo\scopus\202001\T01_광계측기.txt
+2020-01-22 22:31:02,174 [INFO ] (DownloadSearchUtil.java:213) : 30초간 기다립니다.
+2020-01-22 22:31:02,175 [INFO ] (DescriptionCodeManager.java:62) : Description 정보를 로딩하고 있습니다.
+2020-01-22 22:31:02,209 [WARN ] (ConnectionFactory.java:65) : JEUS JNDI를 이용한 커넥션 정보를 가져오지 못했습니다.
+2020-01-22 22:31:02,425 [INFO ] (DescriptionCodeManager.java:64) : 1/6 : source type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:31:02,449 [INFO ] (DescriptionCodeManager.java:66) : 2/6 : citation type 정보 로딩이 완료되었습니다. 
+2020-01-22 22:31:02,623 [INFO ] (DescriptionCodeManager.java:68) : 3/6 : asjc type (kor) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:31:02,801 [INFO ] (DescriptionCodeManager.java:70) : 4/6 : asjc type (eng) 정보 로딩이 완료되었습니다. 
+2020-01-22 22:31:03,310 [INFO ] (DescriptionCodeManager.java:72) : 5/6 : country code 정보 로딩이 완료되었습니다. 
